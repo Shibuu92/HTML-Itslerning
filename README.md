@@ -142,27 +142,6 @@ Change `#0d9488` to another color to customize the appearance.
 
 The templates do not require JavaScript, external CSS frameworks, or additional libraries.
 
-## 📁 Suggested Repository Structure
-
-```text
-itslearning-html-templates/
-│
-├── README.md
-│
-├── course-introductions/
-│   └── digital-tools.html
-│
-├── assignments/
-│   ├── school-email.html
-│   ├── microsoft-teams.html
-│   └── powerpoint-presentation.html
-│
-├── theory/
-│   └── nordic-service-model.html
-│
-└── templates/
-    └── assignment-template.html
-```
 
 This is a suggested organization. Additional subjects and templates can be added as the project grows.
 
