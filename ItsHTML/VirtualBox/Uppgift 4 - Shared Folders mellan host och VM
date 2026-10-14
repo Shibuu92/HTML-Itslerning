@@ -1,0 +1,111 @@
+<div style="max-width:900px;margin:20px auto;font-family:Arial, Helvetica, sans-serif;color:#1f2937;line-height:1.6;">
+<div style="background:linear-gradient(135deg, #0f766e, #0891b2);color:white;padding:28px 30px;border-radius:16px 16px 0 0;">
+<div style="font-size:14px;font-weight:bold;letter-spacing:1px;text-transform:uppercase;">ICT – Virtualisering och filhantering</div>
+
+<h1 style="margin:6px 0 5px 0;font-size:30px;">📁 Delade mappar i VirtualBox</h1>
+
+<p style="margin:0;font-size:16px;">Dela filer mellan värddatorn och en virtuell maskin.</p>
+</div>
+
+<div style="background-color:#ffffff;border:1px solid #e5e7eb;border-top:none;padding:28px;border-radius:0 0 16px 16px;">
+<div style="background-color:#f0fdfa;border-left:5px solid #0f766e;border-radius:10px;padding:18px 20px;margin-bottom:28px;">
+<h2 style="margin:0 0 7px 0;color:#0f766e;font-size:21px;">🎯 Mål</h2>
+
+<p style="margin:0;">Lära sig dela filer mellan <strong>värddatorn</strong> och en <strong>virtuell maskin</strong> med hjälp av delade mappar i VirtualBox.</p>
+</div>
+
+<h2 style="font-size:23px;color:#111827;margin-bottom:18px;">📋 Instruktioner</h2>
+
+<div style="background-color:#f9fafb;border-left:5px solid #0f766e;border-radius:10px;padding:18px 20px;margin-bottom:16px;">
+<h3 style="margin:0 0 8px 0;color:#0f766e;">1. Öppna Shared Folders</h3>
+
+<p>Öppna inställningarna för den virtuella maskinen i VirtualBox och gå till:</p>
+
+<div style="background-color:#ffffff;border:1px solid #ccfbf1;border-radius:8px;padding:13px 16px;text-align:center;"><strong>Settings → Shared Folders</strong></div>
+</div>
+
+<div style="background-color:#f9fafb;border-left:5px solid #0f766e;border-radius:10px;padding:18px 20px;margin-bottom:16px;">
+<h3 style="margin:0 0 8px 0;color:#0f766e;">2. Lägg till en delad mapp</h3>
+
+<p style="margin-bottom:0;">Lägg till en ny mapp från <strong>värddatorn</strong> som ska delas med den virtuella maskinen.</p>
+</div>
+
+<div style="background-color:#f9fafb;border-left:5px solid #0f766e;border-radius:10px;padding:18px 20px;margin-bottom:16px;">
+<h3 style="margin:0 0 10px 0;color:#0f766e;">3. Konfigurera mappen</h3>
+
+<p>När mappen läggs till ska följande alternativ markeras:</p>
+
+<div style="background-color:#ffffff;border:1px solid #ccfbf1;border-radius:8px;padding:15px 18px;">
+<div style="margin-bottom:8px;">☑ <strong>Auto-mount</strong></div>
+
+<div>☑ <strong>Make Permanent</strong></div>
+</div>
+</div>
+
+<div style="background-color:#f9fafb;border-left:5px solid #0f766e;border-radius:10px;padding:18px 20px;margin-bottom:16px;">
+<h3 style="margin:0 0 8px 0;color:#0f766e;">4. Starta den virtuella maskinen</h3>
+
+<p style="margin:0;">Starta den virtuella maskinen och logga in som vanligt.</p>
+</div>
+
+<div style="background-color:#f9fafb;border-left:5px solid #0f766e;border-radius:10px;padding:18px 20px;margin-bottom:16px;">
+<h3 style="margin:0 0 8px 0;color:#0f766e;">5. Kontrollera den delade mappen</h3>
+
+<p style="margin:0;">Kontrollera att den delade mappen från värddatorn är synlig och går att öppna inne i den virtuella maskinen.</p>
+</div>
+
+<div style="background-color:#f9fafb;border-left:5px solid #0f766e;border-radius:10px;padding:18px 20px;margin-bottom:20px;">
+<h3 style="margin:0 0 8px 0;color:#0f766e;">6. Testa filöverföringen</h3>
+
+<p>Kontrollera att filer kan delas åt båda hållen.</p>
+
+<div style="background-color:#ffffff;border:1px solid #ccfbf1;border-radius:8px;padding:15px 18px;">
+<div style="margin-bottom:10px;">💻 <strong>Värddator → VM:</strong><br />
+Skapa en fil på värddatorn i den delade mappen och kontrollera att den går att öppna i VM.</div>
+
+<div>🖥️ <strong>VM → Värddator:</strong><br />
+Skapa en fil från den virtuella maskinen och kontrollera att den går att öppna från värddatorn.</div>
+</div>
+</div>
+
+<div style="background-color:#fff7ed;border-left:5px solid #f59e0b;border-radius:10px;padding:17px 20px;margin-bottom:28px;"><strong style="color:#b45309;">⚠️ Om den delade mappen inte fungerar</strong>
+
+<p style="margin:7px 0 0 0;">Kontrollera att <strong>Guest Additions</strong> är installerat i den virtuella maskinen. Guest Additions behövs för att VirtualBox Shared Folders ska fungera korrekt.</p>
+</div>
+
+<div style="background-color:#f5f3ff;border-left:5px solid #7c3aed;border-radius:10px;padding:20px;margin-bottom:28px;">
+<h2 style="margin:0 0 12px 0;color:#6d28d9;font-size:21px;">📸 Dokumentation</h2>
+
+<p style="margin-top:0;">Dokumentera arbetet med skärmbilder och korta förklaringar.</p>
+
+<ul style="margin-bottom:0;padding-left:22px;">
+	<li>Ta skärmbilder på hur du <strong>ställer in den delade mappen</strong> i VirtualBox.</li>
+	<li>Ta en skärmbild som visar att <strong>mappen är synlig i VM</strong>.</li>
+	<li>Ta skärmbilder som visar att <strong>filer går att nå mellan värddatorn och VM</strong>.</li>
+	<li>Skriv en kort beskrivning till varje bild.</li>
+</ul>
+</div>
+
+<div style="background-color:#f9fafb;border:1px solid #e5e7eb;border-radius:12px;padding:20px;margin-bottom:28px;">
+<h2 style="margin:0 0 12px 0;color:#111827;font-size:21px;">✅ Kontrollera innan du lämnar in</h2>
+
+<div style="margin-bottom:8px;">✓ En mapp från värddatorn är tillagd som Shared Folder.</div>
+
+<div style="margin-bottom:8px;">✓ Auto-mount och Make Permanent är aktiverade.</div>
+
+<div style="margin-bottom:8px;">✓ Den delade mappen går att öppna i VM.</div>
+
+<div style="margin-bottom:8px;">✓ En fil från värddatorn går att öppna i VM.</div>
+
+<div style="margin-bottom:8px;">✓ En fil skapad från VM går att öppna på värddatorn.</div>
+
+<div>✓ Arbetet är dokumenterat med skärmbilder och korta förklaringar.</div>
+</div>
+
+<div style="background-color:#ecfdf5;border-left:5px solid #10b981;border-radius:10px;padding:19px 20px;">
+<h2 style="margin:0 0 8px 0;color:#047857;font-size:21px;">📤 Inlämning</h2>
+
+<p style="margin:0;">Spara er dokumentation och lämna in den i <strong>PDF- eller Word-format</strong>.</p>
+</div>
+</div>
+</div>

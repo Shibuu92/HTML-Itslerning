@@ -1,0 +1,183 @@
+<div style="max-width:900px;margin:20px auto;font-family:Arial, Helvetica, sans-serif;color:#1f2937;line-height:1.6;">
+<div style="background:linear-gradient(135deg, #1e3a5f, #4f46e5);color:white;padding:28px 30px;border-radius:16px 16px 0 0;">
+<div style="font-size:14px;font-weight:bold;letter-spacing:1px;text-transform:uppercase;">ICT – Virtualisering och systemförståelse</div>
+
+<h1 style="margin:6px 0 5px 0;font-size:30px;">🖥️ Virtualisering, programinstallation och snapshots</h1>
+
+<p style="margin:0;font-size:16px;">Bygg upp en virtuell IT-miljö, installera program och undersök hur snapshots kan användas för återställning.</p>
+</div>
+
+<div style="background-color:#ffffff;border:1px solid #e5e7eb;border-top:none;padding:28px;border-radius:0 0 16px 16px;">
+<div style="background-color:#eff6ff;border-left:5px solid #2563eb;border-radius:10px;padding:18px 20px;margin-bottom:30px;">
+<h2 style="margin:0 0 8px 0;color:#1d4ed8;font-size:21px;">🎯 Mål</h2>
+
+<p style="margin:0;">Förstå <strong>virtualisering och nested virtualization</strong>, kunna bygga upp en virtuell IT-miljö, installera relevanta program samt förstå hur <strong>snapshots</strong> används för testning, säkerhet och återställning.</p>
+</div>
+
+<div style="background-color:#eef2ff;border-radius:12px;padding:20px 22px;margin-bottom:20px;">
+<div style="font-size:13px;color:#4f46e5;font-weight:bold;text-transform:uppercase;">Del 1</div>
+
+<h2 style="margin:3px 0 5px 0;color:#3730a3;font-size:24px;">🖥️ Virtualisering och installation</h2>
+
+<p style="margin:0;">Skapa en virtuell IT-miljö och installera de program som behövs.</p>
+</div>
+
+<div style="border:1px solid #e5e7eb;border-radius:10px;padding:20px;margin-bottom:16px;">
+<h3 style="margin:0 0 10px 0;color:#4338ca;">1. Förklara Nested Virtualization</h3>
+
+<p>Ta reda på vad begreppet <strong>Nested Virtualization</strong> (eller <strong>nestade VM:ar</strong>) betyder.</p>
+
+<ul style="margin-bottom:0;padding-left:22px;">
+	<li>Beskriv med egna ord vad begreppet betyder.</li>
+	<li>Förklara varför man kan vilja använda nested virtualization.</li>
+	<li>Ge exempel på situationer där tekniken kan vara användbar.</li>
+</ul>
+</div>
+
+<div style="border:1px solid #e5e7eb;border-radius:10px;padding:20px;margin-bottom:16px;">
+<h3 style="margin:0 0 10px 0;color:#4338ca;">2. Skapa en virtuell maskin</h3>
+
+<p>Skapa en ny <strong>virtuell maskin (VM)</strong>.</p>
+
+<ul style="margin-bottom:0;padding-left:22px;">
+	<li>Välj ett operativsystem: <strong>Windows eller Linux</strong>.</li>
+	<li>Installera operativsystemet.</li>
+	<li>Konfigurera grundinställningarna.</li>
+	<li>Förbered maskinen med program som kan vara användbara för en IT-tekniker.</li>
+</ul>
+</div>
+
+<div style="border:1px solid #e5e7eb;border-radius:10px;padding:20px;margin-bottom:16px;">
+<h3 style="margin:0 0 10px 0;color:#4338ca;">3. Installera program</h3>
+
+<p>Installera följande program i din virtuella maskin:</p>
+
+<div style="background-color:#f9fafb;border-radius:10px;padding:17px 20px;">
+<table style="width:100%;border-collapse:collapse;">
+	<tbody>
+		<tr>
+			<td style="padding:8px;">☐ <strong>7-Zip</strong></td>
+			<td style="padding:8px;">☐ <strong>PuTTY</strong></td>
+		</tr>
+		<tr>
+			<td style="padding:8px;">☐ <strong>Visual Studio Code</strong></td>
+			<td style="padding:8px;">☐ <strong>GIMP</strong></td>
+		</tr>
+		<tr>
+			<td style="padding:8px;">☐ <strong>Audacity</strong></td>
+			<td style="padding:8px;">☐ <strong>Chrome / Firefox / Opera</strong></td>
+		</tr>
+		<tr>
+			<td style="padding:8px;">☐ <strong>Rufus / Balena Etcher</strong></td>
+			<td style="padding:8px;">☐ <strong>Hyper-V / VirtualBox</strong></td>
+		</tr>
+		<tr>
+			<td style="padding:8px;">☐ <strong>MS Teams / Slack</strong></td>
+			<td style="padding:8px;">☐ <strong>Minst 2 valfria program</strong></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<div style="background-color:#eff6ff;border-left:4px solid #2563eb;border-radius:7px;padding:13px 16px;margin-top:15px;"><strong>💡 Webbläsare:</strong> Du behöver endast installera minst en av Chrome, Firefox eller Opera.</div>
+</div>
+
+<div style="border:1px solid #e5e7eb;border-radius:10px;padding:20px;margin-bottom:32px;">
+<h3 style="margin:0 0 10px 0;color:#4338ca;">4. Välj egna program</h3>
+
+<p>Installera dessutom <strong>minst två valfria program</strong> som du själv tycker är relevanta eller intressanta för en IT-miljö.</p>
+
+<div style="background-color:#f5f3ff;border-left:4px solid #7c3aed;border-radius:7px;padding:14px 16px;"><strong>💭 Motivering:</strong><br />
+Skriv kort varför du valde programmen och vad de kan användas till.</div>
+</div>
+
+<div style="background-color:#f5f3ff;border-radius:12px;padding:20px 22px;margin-bottom:20px;">
+<div style="font-size:13px;color:#7c3aed;font-weight:bold;text-transform:uppercase;">Del 2</div>
+
+<h2 style="margin:3px 0 5px 0;color:#6d28d9;font-size:24px;">📸 Snapshots och systemförståelse</h2>
+
+<p style="margin:0;">Skapa en återställningspunkt och undersök vad som kan hända när viktiga systemfiler försvinner.</p>
+</div>
+
+<div style="border:1px solid #e5e7eb;border-radius:10px;padding:20px;margin-bottom:16px;">
+<h3 style="margin:0 0 10px 0;color:#6d28d9;">1. Skapa en snapshot</h3>
+
+<p>När operativsystemet och alla program har installerats ska du skapa en <strong>snapshot</strong> av den virtuella maskinen.</p>
+
+<p style="margin-bottom:0;">Förklara med egna ord <strong>vad en snapshot är</strong> och <strong>varför man använder snapshots</strong>.</p>
+</div>
+
+<div style="border:1px solid #e5e7eb;border-radius:10px;padding:20px;margin-bottom:16px;">
+<h3 style="margin:0 0 10px 0;color:#6d28d9;">2. Undersök viktiga systemfiler</h3>
+
+<p>Ta reda på vad som skulle kunna hända om viktiga systemfiler tas bort från ett operativsystem.</p>
+
+<div style="background-color:#fff7ed;border-left:5px solid #f59e0b;border-radius:9px;padding:16px 18px;margin:16px 0;"><strong style="color:#b45309;">⚠️ VIKTIGT – ENDAST TEORETISKT</strong>
+
+<p style="margin:7px 0 0 0;">Du ska <strong>inte ta bort systemfiler eller köra destruktiva kommandon</strong>. Ta endast reda på vad som skulle hända och förklara konsekvenserna.</p>
+</div>
+
+<div style="background-color:#eff6ff;border-radius:9px;padding:15px 18px;margin-bottom:10px;"><strong>🪟 Windows</strong><br />
+Vad skulle kunna hända om viktiga filer i <code style="background-color:#dbeafe;padding:2px 5px;border-radius:4px;">System32</code>-mappen tas bort?</div>
+
+<div style="background-color:#f0fdf4;border-radius:9px;padding:15px 18px;"><strong>🐧 Linux</strong><br />
+Vad skulle kommandot <code style="background-color:#dcfce7;padding:2px 5px;border-radius:4px;">sudo rm -rf /</code> försöka göra och vilka konsekvenser skulle det kunna få?</div>
+</div>
+
+<div style="border:1px solid #e5e7eb;border-radius:10px;padding:20px;margin-bottom:32px;">
+<h3 style="margin:0 0 10px 0;color:#6d28d9;">3. Återställ snapshoten</h3>
+
+<p style="margin-bottom:0;">Återställ den virtuella maskinen från snapshoten och dokumentera hur <strong>återställningsprocessen</strong> fungerar i praktiken.</p>
+</div>
+
+<div style="background-color:#ecfeff;border-radius:12px;padding:20px 22px;margin-bottom:20px;">
+<div style="font-size:13px;color:#0891b2;font-weight:bold;text-transform:uppercase;">Del 3</div>
+
+<h2 style="margin:3px 0 5px 0;color:#0e7490;font-size:24px;">📝 Dokumentation</h2>
+
+<p style="margin:0;">Dokumentera hela arbetsprocessen från installation till återställning.</p>
+</div>
+
+<div style="border:1px solid #e5e7eb;border-radius:10px;padding:20px;margin-bottom:28px;">
+<h3 style="margin:0 0 12px 0;color:#0e7490;">Dokumentet ska innehålla</h3>
+
+<div style="margin-bottom:10px;">📌 <strong>Steg-för-steg-förklaringar</strong> av arbetsprocessen.</div>
+
+<div style="margin-bottom:10px;">📸 <strong>Skärmbilder</strong> som visar de olika momenten.</div>
+
+<div style="margin-bottom:10px;">💻 Dokumentation av <strong>programinstallationerna</strong>.</div>
+
+<div style="margin-bottom:10px;">📸 Dokumentation av <strong>snapshot och återställning</strong>.</div>
+
+<div>💭 En <strong>reflektion</strong> kring vad du har lärt dig och varför snapshots kan vara viktiga.</div>
+</div>
+
+<div style="background-color:#f9fafb;border:1px solid #e5e7eb;border-radius:12px;padding:20px;margin-bottom:28px;">
+<h2 style="margin:0 0 13px 0;color:#111827;font-size:21px;">✅ Kontrollera innan du lämnar in</h2>
+
+<div style="margin-bottom:7px;">✓ Nested virtualization är förklarat.</div>
+
+<div style="margin-bottom:7px;">✓ En fungerande VM har skapats.</div>
+
+<div style="margin-bottom:7px;">✓ Alla obligatoriska program har installerats.</div>
+
+<div style="margin-bottom:7px;">✓ Minst två egna program har installerats och motiverats.</div>
+
+<div style="margin-bottom:7px;">✓ En snapshot har skapats och förklarats.</div>
+
+<div style="margin-bottom:7px;">✓ Frågorna om System32 och Linux-kommandot har besvarats teoretiskt.</div>
+
+<div style="margin-bottom:7px;">✓ Snapshoten har återställts.</div>
+
+<div style="margin-bottom:7px;">✓ Arbetsprocessen är dokumenterad med text och skärmbilder.</div>
+
+<div>✓ En avslutande reflektion finns med.</div>
+</div>
+
+<div style="background-color:#ecfdf5;border-left:5px solid #10b981;border-radius:10px;padding:19px 20px;">
+<h2 style="margin:0 0 8px 0;color:#047857;font-size:21px;">📤 Inlämning</h2>
+
+<p style="margin:0;">Spara er dokumentation och lämna in den i <strong>PDF- eller Word-format</strong>.</p>
+</div>
+</div>
+</div>

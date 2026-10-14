@@ -1,0 +1,137 @@
+<div style="max-width:900px;margin:20px auto;font-family:Arial, Helvetica, sans-serif;color:#1f2937;line-height:1.6;">
+<div style="background:linear-gradient(135deg, #0f4c81, #2563eb);color:white;padding:28px 30px;border-radius:16px 16px 0 0;">
+<div style="font-size:14px;font-weight:bold;letter-spacing:1px;text-transform:uppercase;">ICT – Praktisk uppgift</div>
+
+<h1 style="margin:6px 0 5px 0;font-size:30px;">💾 Skapa ett startbart Windows-USB</h1>
+
+<p style="margin:0;font-size:16px;">Skapa ett USB-minne som kan användas för installation eller reparation av Windows.</p>
+</div>
+
+<div style="background-color:#ffffff;border:1px solid #e5e7eb;border-top:none;padding:28px;border-radius:0 0 16px 16px;">
+<div style="background-color:#eff6ff;border-left:5px solid #2563eb;border-radius:10px;padding:18px 20px;margin-bottom:25px;">
+<h2 style="margin:0 0 7px 0;color:#1d4ed8;font-size:21px;">🎯 Mål</h2>
+
+<p style="margin:0;">Att lära sig skapa ett <strong>startbart USB-minne</strong> för att kunna installera eller reparera Windows.</p>
+</div>
+
+<div style="margin-bottom:28px;">
+<h2 style="font-size:22px;color:#111827;margin-bottom:10px;">📖 Bakgrund</h2>
+
+<p style="margin-top:0;">Ett startbart USB-minne med Windows är användbart när ett operativsystem behöver installeras på en ny dator eller repareras på en befintlig dator.</p>
+
+<p>Genom att ha ett färdigt USB-minne kan installationer göras snabbare och utan att vara beroende av en fysisk skiva.</p>
+</div>
+
+<div style="background-color:#f9fafb;border:1px solid #e5e7eb;border-radius:12px;padding:20px;margin-bottom:28px;">
+<h2 style="margin:0 0 14px 0;font-size:21px;color:#111827;">🧰 Material som behövs</h2>
+
+<div style="margin-bottom:12px;"><strong>💾 USB-minne</strong><br />
+Minst <strong>8 GB</strong>. 16 GB eller mer rekommenderas.</div>
+
+<div style="margin-bottom:12px;"><strong>🪟 Windows ISO-fil</strong><br />
+Installationsfilen för Windows.</div>
+
+<div><strong>🔧 Rufus eller Windows Media Creation Tool</strong><br />
+Programvara för att skapa ett startbart USB-minne.</div>
+</div>
+
+<div style="background-color:#fff7ed;border-left:5px solid #f59e0b;border-radius:10px;padding:17px 20px;margin-bottom:30px;">
+<h2 style="margin:0 0 7px 0;font-size:20px;color:#b45309;">⚠️ Viktigt</h2>
+
+<p style="margin:0;">USB-minnet kommer att <strong>formateras</strong>. Säkerhetskopiera därför viktiga filer innan arbetet påbörjas och kontrollera noggrant att rätt USB-enhet är vald.</p>
+</div>
+
+<h2 style="font-size:23px;color:#111827;margin-bottom:18px;">📋 Instruktioner</h2>
+
+<div style="margin-bottom:18px;">
+<div style="background-color:#2563eb;color:white;width:38px;height:38px;line-height:38px;text-align:center;border-radius:50%;font-weight:bold;flex-shrink:0;">1</div>
+
+<div style="margin-left:15px;background-color:#f9fafb;border-radius:10px;padding:15px 18px;width:100%;">
+<h3 style="margin:0 0 8px 0;color:#1d4ed8;">Samla material och programvara</h3>
+
+<ul style="margin:0;padding-left:20px;">
+	<li>Ladda ner en <strong>Windows ISO-fil</strong> eller starta Windows Media Creation Tool.</li>
+	<li>Ladda ner och installera <strong>Rufus</strong> om detta verktyg används.</li>
+</ul>
+</div>
+</div>
+
+<div style="margin-bottom:18px;">
+<div style="background-color:#2563eb;color:white;width:38px;height:38px;line-height:38px;text-align:center;border-radius:50%;font-weight:bold;flex-shrink:0;">2</div>
+
+<div style="margin-left:15px;background-color:#f9fafb;border-radius:10px;padding:15px 18px;width:100%;">
+<h3 style="margin:0 0 8px 0;color:#1d4ed8;">Förbered USB-minnet</h3>
+
+<ul style="margin:0;padding-left:20px;">
+	<li>Sätt in USB-minnet i datorn.</li>
+	<li>Säkerhetskopiera eventuella filer på USB-minnet.</li>
+</ul>
+</div>
+</div>
+
+<div style="margin-bottom:18px;">
+<div style="background-color:#2563eb;color:white;width:38px;height:38px;line-height:38px;text-align:center;border-radius:50%;font-weight:bold;flex-shrink:0;">3</div>
+
+<div style="margin-left:15px;background-color:#f9fafb;border-radius:10px;padding:15px 18px;width:100%;">
+<h3 style="margin:0 0 8px 0;color:#1d4ed8;">Skapa det startbara USB-minnet</h3>
+
+<ul style="margin:0;padding-left:20px;">
+	<li>Starta <strong>Rufus</strong> eller <strong>Windows Media Creation Tool</strong>.</li>
+	<li>Välj USB-minnet som målenhet.</li>
+	<li>Välj ISO-filen som källa.</li>
+	<li>Ställ in filsystem, exempelvis <strong>FAT32 eller NTFS</strong>.</li>
+	<li>Kontrollera startläge, exempelvis <strong>MBR eller GPT</strong>.</li>
+	<li>Starta processen och vänta tills den är färdig.</li>
+</ul>
+</div>
+</div>
+
+<div style="margin-bottom:30px;">
+<div style="background-color:#2563eb;color:white;width:38px;height:38px;line-height:38px;text-align:center;border-radius:50%;font-weight:bold;flex-shrink:0;">4</div>
+
+<div style="margin-left:15px;background-color:#f9fafb;border-radius:10px;padding:15px 18px;width:100%;">
+<h3 style="margin:0 0 8px 0;color:#1d4ed8;">Verifiera USB-minnet</h3>
+
+<ul style="margin:0;padding-left:20px;">
+	<li>Kontrollera att installationsfilerna finns på USB-minnet.</li>
+	<li>Testa om möjligt att starta en dator från USB-minnet <strong>utan att genomföra installationen</strong>.</li>
+</ul>
+</div>
+</div>
+
+<div style="background-color:#f5f3ff;border-left:5px solid #7c3aed;border-radius:10px;padding:20px;margin-bottom:25px;">
+<h2 style="margin:0 0 12px 0;color:#6d28d9;font-size:21px;">📸 Dokumentation</h2>
+
+<p style="margin-top:0;">Skapa ett <strong>Word-dokument</strong> där processen dokumenteras.</p>
+
+<ol style="margin-bottom:0;padding-left:22px;">
+	<li style="margin-bottom:7px;">Använd <strong>rubriker och numrerade steg</strong>.</li>
+	<li style="margin-bottom:7px;">Lägg till <strong>skärmbilder</strong> från viktiga moment.</li>
+	<li style="margin-bottom:7px;">Skriv en <strong>kort förklaring under varje bild</strong> om vad som görs och varför.</li>
+	<li>Lägg till relevanta <strong>tips eller varningar</strong>.</li>
+</ol>
+</div>
+
+<div style="background-color:#f9fafb;border:1px solid #e5e7eb;border-radius:12px;padding:20px;margin-bottom:28px;">
+<h2 style="margin:0 0 12px 0;color:#111827;font-size:21px;">✅ Formatkrav</h2>
+
+<div style="margin-bottom:9px;">✓ Skriv <strong>inte i jag- eller du-form</strong>.</div>
+
+<div style="margin-bottom:9px;">✓ Använd passiv form eller tredje person.</div>
+
+<div style="margin-bottom:9px;">✓ Använd ett tydligt och konsekvent språk.</div>
+
+<div>✓ Använd högst <strong>6–8 bilder</strong> totalt.</div>
+</div>
+
+<div style="background-color:#ecfdf5;border:1px solid #a7f3d0;border-radius:12px;padding:20px;">
+<h2 style="margin:0 0 8px 0;color:#047857;font-size:22px;">📤 Inlämning</h2>
+
+<p style="margin:0 0 12px 0;">Lämna in Word-dokumentet i itslearning.</p>
+
+<div style="font-size:14px;color:#065f46;margin-bottom:5px;">Filnamn:</div>
+
+<div style="background-color:white;border:1px solid #a7f3d0;border-radius:8px;padding:11px 15px;font-family:Consolas, monospace;font-size:15px;">bootableusb_efternamn.docx</div>
+</div>
+</div>
+</div>

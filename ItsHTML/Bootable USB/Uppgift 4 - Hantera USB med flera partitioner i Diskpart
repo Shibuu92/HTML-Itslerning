@@ -1,0 +1,223 @@
+<div style="max-width:900px;margin:20px auto;font-family:Arial, Helvetica, sans-serif;color:#1f2937;line-height:1.6;">
+<div style="background:linear-gradient(135deg, #1e3a5f, #2563eb);color:white;padding:28px 30px;border-radius:16px 16px 0 0;">
+<div style="font-size:14px;font-weight:bold;letter-spacing:1px;text-transform:uppercase;">ICT – USB och Diskpart</div>
+
+<h1 style="margin:6px 0 5px 0;font-size:30px;">💾 Skapa och hantera partitioner med Diskpart</h1>
+
+<p style="margin:0;font-size:16px;">Skapa flera partitioner på ett USB-minne, lagra filer och ta sedan bort en partition.</p>
+</div>
+
+<div style="background-color:#ffffff;border:1px solid #e5e7eb;border-top:none;padding:28px;border-radius:0 0 16px 16px;">
+<div style="background-color:#eff6ff;border-left:5px solid #2563eb;border-radius:10px;padding:18px 20px;margin-bottom:28px;">
+<h2 style="margin:0 0 7px 0;color:#1d4ed8;font-size:21px;">🎯 Mål</h2>
+
+<p style="margin:0;">Lära sig att <strong>skapa, hantera och ta bort partitioner</strong> på ett USB-minne med hjälp av <strong>Diskpart</strong>.</p>
+</div>
+
+<div style="background-color:#fef2f2;border:2px solid #ef4444;border-radius:12px;padding:22px;margin-bottom:28px;">
+<h2 style="margin:0 0 10px 0;color:#b91c1c;font-size:22px;">⚠️ VIKTIG VARNING – LÄS INNAN DU BÖRJAR</h2>
+
+<p style="margin-top:0;">Diskpart kan göra stora förändringar på datorns lagringsenheter. Om du väljer fel disk kan du <strong>radera data på datorns hårddisk eller SSD</strong>.</p>
+
+<div style="background-color:#ffffff;border-radius:8px;padding:15px 18px;margin:14px 0;"><strong style="color:#b91c1c;">🚫 Kör aldrig <code>clean</code> innan du har kontrollerat att rätt USB-minne är valt. </strong></div>
+
+<ul style="margin-bottom:0;padding-left:22px;">
+	<li>Kontrollera USB-minnets <strong>storlek</strong> med <code>list disk</code>.</li>
+	<li>Använd <code>detail disk</code> för att kontrollera den valda disken.</li>
+	<li>Kontrollera en extra gång innan du kör <code>clean</code>.</li>
+	<li>Kör alltid <strong>CMD som administratör</strong>.</li>
+</ul>
+</div>
+
+<div style="background-color:#f5f3ff;border-left:5px solid #7c3aed;border-radius:10px;padding:20px;margin-bottom:30px;">
+<h2 style="margin:0 0 10px 0;color:#6d28d9;font-size:21px;">📑 Dokumentera under arbetets gång</h2>
+
+<p style="margin-top:0;">Dokumentera processen samtidigt som du arbetar.</p>
+
+<ul style="margin-bottom:0;padding-left:22px;">
+	<li style="margin-bottom:7px;">Skriv ner <strong>vilka kommandon</strong> du använder.</li>
+	<li style="margin-bottom:7px;">Ta en skärmbild på resultatet av <code>list disk</code>.</li>
+	<li style="margin-bottom:7px;">Ta en skärmbild på <code>list partition</code>.</li>
+	<li style="margin-bottom:7px;">Ta skärmbilder <strong>före och efter</strong> du tar bort en partition.</li>
+	<li>Beskriv kort med egna ord vad som händer i varje steg.</li>
+</ul>
+</div>
+
+<div style="background-color:#ecfeff;border-radius:12px;padding:20px 22px;margin-bottom:16px;">
+<div style="font-size:13px;color:#0891b2;font-weight:bold;text-transform:uppercase;">Steg 1</div>
+
+<h2 style="margin:3px 0 5px 0;color:#0e7490;font-size:23px;">⌨️ Starta CMD som administratör</h2>
+</div>
+
+<div style="border:1px solid #e5e7eb;border-radius:10px;padding:20px;margin-bottom:28px;">
+<ol style="margin:0;padding-left:24px;">
+	<li>Sök efter <strong>cmd</strong> i Windows.</li>
+	<li>Högerklicka på <strong>Kommandotolken</strong>.</li>
+	<li>Välj <strong>Kör som administratör</strong>.</li>
+</ol>
+</div>
+
+<div style="background-color:#eef2ff;border-radius:12px;padding:20px 22px;margin-bottom:16px;">
+<div style="font-size:13px;color:#4f46e5;font-weight:bold;text-transform:uppercase;">Steg 2</div>
+
+<h2 style="margin:3px 0 5px 0;color:#4338ca;font-size:23px;">💾 Starta Diskpart och förbered USB-minnet</h2>
+</div>
+
+<div style="border:1px solid #e5e7eb;border-radius:10px;padding:20px;margin-bottom:28px;">
+<p style="margin-top:0;">Kör följande kommandon <strong>ett i taget</strong>:</p>
+
+<div style="background-color:#111827;color:#f9fafb;border-radius:9px;padding:18px;font-family:Consolas, monospace;line-height:1.8;overflow-x:auto;">diskpart<br />
+list disk<br />
+select disk X<br />
+detail disk<br />
+clean</div>
+
+<div style="background-color:#fff7ed;border-left:5px solid #f59e0b;border-radius:8px;padding:15px 17px;margin-top:18px;"><strong style="color:#b45309;">⚠️ Kontrollpunkt</strong><br />
+Byt <strong>X</strong> mot numret på ditt USB-minne. Kontrollera med <code>detail disk</code> att rätt enhet är vald <strong>innan</strong> du kör <code>clean</code>.</div>
+
+<div style="background-color:#eff6ff;border-left:5px solid #2563eb;border-radius:8px;padding:14px 17px;margin-top:12px;">📸 <strong>Dokumentera:</strong> Ta en skärmbild på <code>list disk</code> där USB-minnet syns.</div>
+</div>
+
+<div style="background-color:#f0fdf4;border-radius:12px;padding:20px 22px;margin-bottom:16px;">
+<div style="font-size:13px;color:#16a34a;font-weight:bold;text-transform:uppercase;">Steg 3</div>
+
+<h2 style="margin:3px 0 5px 0;color:#15803d;font-size:23px;">📊 Skapa tre partitioner</h2>
+
+<p style="margin:5px 0 0 0;">Dela upp USB-minnet i flera separata partitioner.</p>
+</div>
+
+<div style="border:1px solid #e5e7eb;border-radius:10px;padding:20px;margin-bottom:28px;">
+<p style="margin-top:0;">I exemplet skapar du <strong>tre partitioner</strong>. De två första är 1 GB vardera och den tredje använder det återstående utrymmet.</p>
+
+<h3 style="color:#15803d;margin-bottom:8px;">Partition 1</h3>
+
+<div style="background-color:#111827;color:#f9fafb;border-radius:8px;padding:14px 16px;font-family:Consolas, monospace;line-height:1.8;">create partition primary size=1024<br />
+format fs=ntfs quick label=Part1<br />
+assign letter=U</div>
+
+<h3 style="color:#15803d;margin:20px 0 8px 0;">Partition 2</h3>
+
+<div style="background-color:#111827;color:#f9fafb;border-radius:8px;padding:14px 16px;font-family:Consolas, monospace;line-height:1.8;">create partition primary size=1024<br />
+format fs=ntfs quick label=Part2<br />
+assign letter=V</div>
+
+<h3 style="color:#15803d;margin:20px 0 8px 0;">Partition 3</h3>
+
+<div style="background-color:#111827;color:#f9fafb;border-radius:8px;padding:14px 16px;font-family:Consolas, monospace;line-height:1.8;">create partition primary<br />
+format fs=ntfs quick label=Part3<br />
+assign letter=W</div>
+
+<div style="background-color:#ecfeff;border-left:5px solid #0891b2;border-radius:8px;padding:14px 17px;margin-top:18px;"><strong>💡 Vad betyder size=1024?</strong><br />
+Storleken anges i MB. <code>size=1024</code> skapar därför en partition på ungefär <strong>1 GB</strong>. Storleken kan anpassas efter USB-minnets kapacitet.</div>
+
+<h3 style="margin:22px 0 8px 0;color:#111827;">Kontrollera partitionerna</h3>
+
+<div style="background-color:#111827;color:#f9fafb;border-radius:8px;padding:14px 16px;font-family:Consolas, monospace;">list partition</div>
+
+<div style="background-color:#eff6ff;border-left:5px solid #2563eb;border-radius:8px;padding:14px 17px;margin-top:12px;">📸 <strong>Dokumentera:</strong> Ta en skärmbild där de tre partitionerna syns.</div>
+</div>
+
+<div style="background-color:#ecfeff;border-radius:12px;padding:20px 22px;margin-bottom:16px;">
+<div style="font-size:13px;color:#0891b2;font-weight:bold;text-transform:uppercase;">Steg 4</div>
+
+<h2 style="margin:3px 0 5px 0;color:#0e7490;font-size:23px;">📂 Lägg in filer i partitionerna</h2>
+</div>
+
+<div style="border:1px solid #e5e7eb;border-radius:10px;padding:20px;margin-bottom:28px;">
+<p style="margin-top:0;">Öppna <strong>Utforskaren</strong>. De tre partitionerna ska visas som separata enheter.</p>
+
+<div style="background-color:#f9fafb;border-radius:9px;padding:16px 18px;">
+<div style="margin-bottom:10px;">📄 <strong>Part1 (U:)</strong> – skapa eller spara en textfil.</div>
+
+<div style="margin-bottom:10px;">🖼️ <strong>Part2 (V:)</strong> – spara en bild.</div>
+
+<div>📕 <strong>Part3 (W:)</strong> – spara en PDF-fil.</div>
+</div>
+
+<p style="margin-bottom:0;margin-top:14px;">Kontrollera att filerna finns på rätt partition.</p>
+</div>
+
+<div style="background-color:#fef2f2;border-radius:12px;padding:20px 22px;margin-bottom:16px;">
+<div style="font-size:13px;color:#dc2626;font-weight:bold;text-transform:uppercase;">Steg 5</div>
+
+<h2 style="margin:3px 0 5px 0;color:#b91c1c;font-size:23px;">🗑️ Ta bort en partition</h2>
+</div>
+
+<div style="border:1px solid #e5e7eb;border-radius:10px;padding:20px;margin-bottom:28px;">
+<p style="margin-top:0;">Gå tillbaka till Diskpart och välj USB-minnet igen.</p>
+
+<div style="background-color:#111827;color:#f9fafb;border-radius:9px;padding:18px;font-family:Consolas, monospace;line-height:1.8;overflow-x:auto;">diskpart<br />
+list disk<br />
+select disk X<br />
+list partition</div>
+
+<div style="background-color:#eff6ff;border-left:5px solid #2563eb;border-radius:8px;padding:14px 17px;margin-top:15px;">📸 <strong>Före:</strong> Ta en skärmbild på <code>list partition</code> innan du tar bort partitionen.</div>
+
+<p>Välj sedan den andra partitionen:</p>
+
+<div style="background-color:#111827;color:#f9fafb;border-radius:9px;padding:18px;font-family:Consolas, monospace;line-height:1.8;">select partition 2<br />
+delete partition<br />
+list partition<br />
+exit</div>
+
+<div style="background-color:#fef2f2;border-left:5px solid #dc2626;border-radius:8px;padding:14px 17px;margin-top:15px;"><strong style="color:#b91c1c;">⚠️ Observera</strong><br />
+När partitionen tas bort försvinner även filerna som fanns på den partitionen. Kontrollera därför att du har valt rätt partition.</div>
+
+<div style="background-color:#eff6ff;border-left:5px solid #2563eb;border-radius:8px;padding:14px 17px;margin-top:12px;">📸 <strong>Efter:</strong> Ta en ny skärmbild på <code>list partition</code> efter att partitionen har tagits bort.</div>
+</div>
+
+<div style="background-color:#f0fdf4;border-radius:12px;padding:20px 22px;margin-bottom:16px;">
+<div style="font-size:13px;color:#16a34a;font-weight:bold;text-transform:uppercase;">Steg 6</div>
+
+<h2 style="margin:3px 0 5px 0;color:#15803d;font-size:23px;">🔍 Kontrollera resultatet</h2>
+</div>
+
+<div style="border:1px solid #e5e7eb;border-radius:10px;padding:20px;margin-bottom:28px;">
+<p style="margin-top:0;">Öppna <strong>Utforskaren</strong> igen och kontrollera resultatet.</p>
+
+<ul style="margin-bottom:0;padding-left:22px;">
+	<li>De två kvarvarande partitionerna ska fortfarande vara tillgängliga.</li>
+	<li>Den borttagna partitionens enhetsbokstav ska inte längre visas.</li>
+	<li>Utrymmet från den borttagna partitionen är nu <strong>oallokerat</strong>.</li>
+</ul>
+</div>
+
+<div style="background-color:#ecfeff;border-left:5px solid #0891b2;border-radius:10px;padding:20px;margin-bottom:28px;">
+<h2 style="margin:0 0 10px 0;color:#0e7490;font-size:21px;">💭 Reflektion</h2>
+
+<p style="margin:0 0 10px 0;">Svara kort med egna ord:</p>
+
+<ul style="margin-bottom:0;padding-left:22px;">
+	<li>Vad är en partition?</li>
+	<li>Varför kan man vilja dela upp en lagringsenhet i flera partitioner?</li>
+	<li>Vad händer med utrymmet när en partition tas bort?</li>
+</ul>
+</div>
+
+<div style="background-color:#f9fafb;border:1px solid #e5e7eb;border-radius:12px;padding:20px;margin-bottom:28px;">
+<h2 style="margin:0 0 13px 0;color:#111827;font-size:21px;">✅ Kontrollera innan du lämnar in</h2>
+
+<div style="margin-bottom:8px;">✓ Rätt USB-minne valdes i Diskpart.</div>
+
+<div style="margin-bottom:8px;">✓ Tre partitioner skapades.</div>
+
+<div style="margin-bottom:8px;">✓ Partitionerna formaterades och fick enhetsbokstäver.</div>
+
+<div style="margin-bottom:8px;">✓ Olika filer sparades på partitionerna.</div>
+
+<div style="margin-bottom:8px;">✓ En partition togs bort.</div>
+
+<div style="margin-bottom:8px;">✓ Skärmbilder före och efter borttagningen finns med.</div>
+
+<div style="margin-bottom:8px;">✓ Kommandona och resultaten är dokumenterade.</div>
+
+<div>✓ Reflektionsfrågorna är besvarade.</div>
+</div>
+
+<div style="background-color:#ecfdf5;border-left:5px solid #10b981;border-radius:10px;padding:19px 20px;">
+<h2 style="margin:0 0 8px 0;color:#047857;font-size:21px;">📤 Inlämning</h2>
+
+<p style="margin:0;">Spara er dokumentation och lämna in den i <strong>PDF- eller Word-format</strong>.</p>
+</div>
+</div>
+</div>

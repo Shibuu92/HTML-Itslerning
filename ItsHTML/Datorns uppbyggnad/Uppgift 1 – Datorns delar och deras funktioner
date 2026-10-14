@@ -1,0 +1,90 @@
+<div style="max-width:900px;margin:20px auto;font-family:Arial, Helvetica, sans-serif;color:#1f2937;line-height:1.6;">
+<div style="background:linear-gradient(135deg, #0f766e, #14b8a6);color:white;padding:28px 30px;border-radius:16px 16px 0 0;">
+<div style="font-size:14px;font-weight:bold;letter-spacing:1px;text-transform:uppercase;">ICT – Datorns delar</div>
+
+<h1 style="margin:6px 0 5px 0;font-size:30px;">🖥️ Datorns viktigaste komponenter</h1>
+
+<p style="margin:0;font-size:16px;">Lär dig vad datorns olika delar heter, vad de gör och varför de behövs.</p>
+</div>
+
+<div style="background-color:#ffffff;border:1px solid #e5e7eb;border-top:none;padding:28px;border-radius:0 0 16px 16px;">
+<div style="background-color:#ecfdf5;border-left:5px solid #14b8a6;border-radius:10px;padding:18px 20px;margin-bottom:25px;">
+<h2 style="margin:0 0 7px 0;color:#0f766e;font-size:21px;">🎯 Mål</h2>
+
+<p style="margin:0;">Lära dig om de viktigaste delarna i en dator och förstå <strong>vad varje del gör</strong>.</p>
+</div>
+
+<h2 style="font-size:23px;color:#111827;margin-bottom:15px;">📚 Del 1 – Bekanta dig med komponenterna</h2>
+
+<p>Läs igenom informationen om följande delar i en dator:</p>
+
+<div style="background-color:#f9fafb;border:1px solid #e5e7eb;border-radius:12px;padding:20px;margin-bottom:28px;">
+<div style="margin-bottom:12px;"><strong>🧩 Moderkort</strong> <span style="color:#6b7280;">(Motherboard)</span></div>
+
+<div style="margin-bottom:12px;"><strong>⚙️ Processor</strong> <span style="color:#6b7280;">(CPU)</span></div>
+
+<div style="margin-bottom:12px;"><strong>💾 RAM</strong> <span style="color:#6b7280;">(Arbetsminne)</span></div>
+
+<div style="margin-bottom:12px;"><strong>🎮 Grafikkort</strong> <span style="color:#6b7280;">(GPU)</span></div>
+
+<div style="margin-bottom:12px;"><strong>📦 Hårddisk / SSD</strong> <span style="color:#6b7280;">(Lagringsenhet)</span></div>
+
+<div style="margin-bottom:12px;"><strong>🔌 Nätaggregat</strong> <span style="color:#6b7280;">(Power Supply / PSU)</span></div>
+
+<div style="margin-bottom:12px;"><strong>❄️ Kylsystem</strong> <span style="color:#6b7280;">(Fläkt eller vattenkylning)</span></div>
+
+<div><strong>🔊 Ljudkort och 🌐 nätverkskort</strong> <span style="color:#6b7280;">(valfritt)</span></div>
+</div>
+
+<h2 style="font-size:23px;color:#111827;margin-bottom:15px;">✍️ Del 2 – Beskriv varje komponent</h2>
+
+<div style="background-color:#f0fdfa;border-left:5px solid #14b8a6;border-radius:10px;padding:18px 20px;margin-bottom:25px;">
+<p style="margin-top:0;">Skriv en kort beskrivning på <strong>2–3 meningar</strong> för varje komponent.</p>
+
+<p style="margin-bottom:8px;">För varje del ska följande finnas med:</p>
+
+<ul style="margin-bottom:0;">
+	<li>Vad komponenten heter.</li>
+	<li>Vad dess huvudsakliga funktion är i datorn.</li>
+	<li>En bild på komponenten.</li>
+</ul>
+</div>
+
+<div style="margin-bottom:28px;">
+<h2 style="font-size:22px;color:#111827;margin-bottom:12px;">💡 Exempel</h2>
+
+<div style="background-color:#f9fafb;border:1px solid #d1d5db;border-radius:12px;padding:18px 20px;"><strong style="color:#0f766e;font-size:17px;">Processor (CPU) </strong>
+
+<p style="margin-bottom:0;">Processorn är en av datorns viktigaste komponenter och utför beräkningar samt instruktioner från olika program. Den kan beskrivas som datorns "hjärna" eftersom den behandlar information och styr många av datorns funktioner.</p>
+</div>
+</div>
+
+<div style="background-color:#fff7ed;border-left:5px solid #f59e0b;border-radius:10px;padding:18px 20px;margin-bottom:28px;">
+<h2 style="margin:0 0 8px 0;color:#b45309;font-size:21px;">🤔 Del 3 – Reflektion</h2>
+
+<p style="margin:0;">Reflektera kort över <strong>varför varje komponent är viktig</strong> för att datorn ska kunna fungera som den ska.</p>
+</div>
+
+<div style="background-color:#f9fafb;border:1px solid #e5e7eb;border-radius:12px;padding:20px;margin-bottom:28px;">
+<h2 style="margin:0 0 12px 0;color:#111827;font-size:21px;">✅ Kontrollera innan du lämnar in</h2>
+
+<div style="margin-bottom:8px;">✓ Alla viktiga komponenter finns med.</div>
+
+<div style="margin-bottom:8px;">✓ Varje komponent har en beskrivning på 2–3 meningar.</div>
+
+<div style="margin-bottom:8px;">✓ Varje komponent har en bild.</div>
+
+<div style="margin-bottom:8px;">✓ Komponentens funktion förklaras.</div>
+
+<div>✓ Det finns en kort reflektion om varför komponenten är viktig.</div>
+</div>
+
+<div style="background-color:#ecfdf5;border:1px solid #a7f3d0;border-radius:12px;padding:20px;">
+<h2 style="margin:0 0 8px 0;color:#047857;font-size:22px;">📤 Inlämning</h2>
+
+<p style="margin:0 0 10px 0;">När dokumentet är färdigt ska det lämnas in i itslearning.</p>
+
+<div style="background-color:white;border:1px solid #a7f3d0;border-radius:8px;padding:11px 15px;"><strong>Filformat: PDF</strong></div>
+</div>
+</div>
+</div>

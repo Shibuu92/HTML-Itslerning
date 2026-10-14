@@ -1,0 +1,161 @@
+<div style="max-width:900px;margin:20px auto;font-family:Arial, Helvetica, sans-serif;color:#1f2937;line-height:1.6;">
+<div style="background:linear-gradient(135deg, #1e3a5f, #2563eb);color:white;padding:30px;border-radius:16px 16px 0 0;">
+<div style="font-size:14px;font-weight:bold;letter-spacing:1px;text-transform:uppercase;">ICT – Virtualisering</div>
+
+<h1 style="margin:6px 0 5px 0;font-size:30px;">📘 Innan du börjar – VirtualBox och virtuella maskiner</h1>
+
+<p style="margin:0;font-size:16px;">Viktig information om nedladdningar, säkerhet och arbete med virtuella maskiner.</p>
+</div>
+
+<div style="background-color:#ffffff;border:1px solid #e5e7eb;border-top:none;padding:28px;border-radius:0 0 16px 16px;">
+<div style="background-color:#eff6ff;border-left:5px solid #2563eb;border-radius:10px;padding:18px 20px;margin-bottom:28px;">
+<h2 style="margin:0 0 8px 0;color:#1d4ed8;font-size:21px;">ℹ️ Läs detta före uppgifterna</h2>
+
+<p style="margin:0;">Under dessa uppgifter kommer du att arbeta med <strong>VirtualBox</strong>, installera operativsystem, skapa virtuella nätverk, använda delade mappar, arbeta i terminalen och använda snapshots.</p>
+
+<p style="margin:10px 0 0 0;">Läs igenom informationen på denna sida innan du börjar med uppgifterna.</p>
+</div>
+
+<div style="border:1px solid #e5e7eb;border-radius:12px;padding:22px;margin-bottom:28px;">
+<h2 style="margin:0 0 8px 0;color:#111827;font-size:22px;">📥 Program och ISO-filer</h2>
+
+<p>Program och operativsystem ska i första hand laddas ner från <strong>officiella webbplatser</strong>.</p>
+
+<div style="background-color:#f9fafb;border-radius:9px;padding:15px 18px;margin-bottom:10px;"><strong>📦 VirtualBox</strong><br />
+<span style="color:#4b5563;">Programmet som används för att skapa och köra virtuella maskiner. </span><br />
+<a href="https://www.virtualbox.org/wiki/Downloads" style="color:#2563eb;font-weight:bold;" target="_blank">VirtualBox – officiell nedladdning </a></div>
+
+<div style="background-color:#f9fafb;border-radius:9px;padding:15px 18px;margin-bottom:10px;"><strong>🪟 Windows 11 ISO</strong><br />
+<span style="color:#4b5563;">Windows installationsfil hämtas från Microsoft. </span><br />
+<a href="https://www.microsoft.com/software-download/windows11" style="color:#2563eb;font-weight:bold;" target="_blank">Microsoft – Windows 11 </a></div>
+
+<div style="background-color:#f9fafb;border-radius:9px;padding:15px 18px;margin-bottom:10px;"><strong>🐧 Ubuntu ISO</strong><br />
+<span style="color:#4b5563;">Ubuntu Desktop kan användas för Linux-uppgifterna. </span><br />
+<a href="https://ubuntu.com/download/desktop" style="color:#2563eb;font-weight:bold;" target="_blank">Ubuntu – officiell nedladdning </a></div>
+
+<div style="background-color:#f9fafb;border-radius:9px;padding:15px 18px;"><strong>🐧 Linux Mint</strong><br />
+<span style="color:#4b5563;">Om Linux Mint används i någon av uppgifterna. </span><br />
+<a href="https://linuxmint.com/download.php" style="color:#2563eb;font-weight:bold;" target="_blank">Linux Mint – officiell nedladdning </a></div>
+</div>
+
+<div style="background-color:#f5f3ff;border-left:5px solid #7c3aed;border-radius:10px;padding:20px;margin-bottom:28px;">
+<h2 style="margin:0 0 9px 0;color:#6d28d9;font-size:21px;">💿 Vad är en ISO-fil?</h2>
+
+<p style="margin:0;">En <strong>ISO-fil</strong> är en avbildning av ett installationsmedium. I VirtualBox kan ISO-filen användas som en virtuell DVD för att installera exempelvis Windows eller Linux i en virtuell maskin.</p>
+
+<p style="margin:10px 0 0 0;">Du behöver alltså <strong>inte</strong> bränna ISO-filen till en DVD eller USB-sticka när den ska användas direkt i VirtualBox.</p>
+</div>
+
+<div style="border:1px solid #e5e7eb;border-radius:12px;padding:22px;margin-bottom:28px;">
+<h2 style="margin:0 0 14px 0;color:#111827;font-size:22px;">🧠 Viktiga begrepp</h2>
+
+<div style="margin-bottom:13px;"><strong>💻 Host / Värddator</strong><br />
+Den fysiska datorn som VirtualBox körs på.</div>
+
+<div style="margin-bottom:13px;"><strong>🖥️ Guest / Virtuell maskin</strong><br />
+Operativsystemet som körs virtuellt inne i VirtualBox.</div>
+
+<div style="margin-bottom:13px;"><strong>💿 ISO-fil</strong><br />
+En fil som bland annat kan innehålla installationsmedia för ett operativsystem.</div>
+
+<div style="margin-bottom:13px;"><strong>🧠 RAM</strong><br />
+En del av värddatorns arbetsminne tilldelas den virtuella maskinen medan den används.</div>
+
+<div style="margin-bottom:13px;"><strong>⚙️ CPU-kärnor</strong><br />
+VirtualBox kan tilldela en eller flera av värddatorns processorresurser till VM:n.</div>
+
+<div style="margin-bottom:13px;"><strong>💾 Virtuell hårddisk</strong><br />
+En fil på värddatorn som fungerar som hårddisk för den virtuella maskinen.</div>
+
+<div><strong>📸 Snapshot</strong><br />
+Sparar VM:ns tillstånd vid en viss tidpunkt så att du senare kan gå tillbaka till detta tillstånd.</div>
+</div>
+
+<div style="background-color:#fef2f2;border:2px solid #ef4444;border-radius:12px;padding:22px;margin-bottom:28px;">
+<h2 style="margin:0 0 10px 0;color:#b91c1c;font-size:22px;">⚠️ Viktigt om säkerhet</h2>
+
+<p style="margin-top:0;">En virtuell maskin ger en viss isolering från värddatorn, men den gör <strong>inte datorn automatiskt säker mot alla hot</strong>.</p>
+
+<div style="background-color:#ffffff;border-radius:8px;padding:15px 18px;margin:15px 0;"><strong style="color:#b91c1c;">🚫 Ladda inte ner eller kör virus, ransomware, trojaner eller annan skadlig programvara. </strong></div>
+
+<p>Detta gäller även om du tänker köra programmet inne i en virtuell maskin. Malware kan innebära risker för både VM:n, värddatorn och andra enheter på nätverket.</p>
+
+<p style="margin-bottom:0;">Använd endast program, ISO-filer och installationsfiler från <strong>betrodda och helst officiella källor</strong>.</p>
+</div>
+
+<div style="background-color:#fff7ed;border-left:5px solid #f59e0b;border-radius:10px;padding:20px;margin-bottom:28px;">
+<h2 style="margin:0 0 10px 0;color:#b45309;font-size:21px;">🔗 VM:n kan ha kontakt med värddatorn</h2>
+
+<p>Beroende på VirtualBox-inställningarna kan den virtuella maskinen ha olika kopplingar till värddatorn och nätverket.</p>
+
+<ul style="margin-bottom:0;padding-left:22px;">
+	<li><strong>Shared Folders</strong> – mappar delas mellan host och VM.</li>
+	<li><strong>Shared Clipboard</strong> – text kan kopieras mellan systemen.</li>
+	<li><strong>Drag and Drop</strong> – filer kan flyttas mellan systemen.</li>
+	<li><strong>USB</strong> – USB-enheter kan anslutas till VM:n.</li>
+	<li><strong>Network</strong> – VM:n kan vara ansluten till nätverk eller internet.</li>
+</ul>
+
+<p style="margin-bottom:0;margin-top:12px;">Därför ska en VM <strong>inte betraktas som en helt isolerad eller riskfri miljö</strong>.</p>
+</div>
+
+<div style="background-color:#f5f3ff;border-left:5px solid #7c3aed;border-radius:10px;padding:20px;margin-bottom:28px;">
+<h2 style="margin:0 0 9px 0;color:#6d28d9;font-size:21px;">📸 Använd snapshots</h2>
+
+<p>Innan du gör större förändringar i en virtuell maskin kan det vara bra att skapa en <strong>snapshot</strong>.</p>
+
+<p style="margin-bottom:0;">Om något går fel kan du återställa VM:n till det tidigare tillståndet. Kom ihåg att en snapshot <strong>inte ersätter vanlig säkerhetskopiering</strong> av viktiga filer.</p>
+</div>
+
+<div style="background-color:#ecfeff;border-left:5px solid #0891b2;border-radius:10px;padding:20px;margin-bottom:28px;">
+<h2 style="margin:0 0 9px 0;color:#0e7490;font-size:21px;">💾 Spara din dokumentation säkert</h2>
+
+<p>Spara inte din enda kopia av viktig dokumentation inne i den virtuella maskinen.</p>
+
+<p style="margin-bottom:0;">En VM kan behöva återställas från en snapshot, installeras om eller tas bort. Spara därför dokumentationen på <strong>värddatorn eller på den lagringsplats som skolan använder</strong>.</p>
+</div>
+
+<div style="background-color:#fef2f2;border-left:5px solid #dc2626;border-radius:10px;padding:20px;margin-bottom:28px;">
+<h2 style="margin:0 0 9px 0;color:#b91c1c;font-size:21px;">⛔ Destruktiva kommandon och systemfiler</h2>
+
+<p>I vissa uppgifter kan du få frågor om vad som händer om viktiga systemfiler raderas eller om destruktiva kommandon används.</p>
+
+<p style="margin-bottom:0;">Om uppgiften säger att något ska undersökas <strong>teoretiskt</strong> ska du endast ta reda på och förklara vad som skulle hända. <strong>Utför inte kommandot eller radera systemfiler i praktiken.</strong></p>
+</div>
+
+<div style="background-color:#f9fafb;border:1px solid #e5e7eb;border-radius:12px;padding:20px;margin-bottom:28px;">
+<h2 style="margin:0 0 12px 0;color:#111827;font-size:21px;">🛠️ Om något inte fungerar</h2>
+
+<p style="margin-top:0;">Problem är en normal del av arbete med virtuella maskiner. Kontrollera först:</p>
+
+<ul style="margin-bottom:0;padding-left:22px;">
+	<li>Är rätt ISO-fil vald?</li>
+	<li>Har VM:n tillräckligt med RAM och diskutrymme?</li>
+	<li>Är rätt nätverksinställning vald?</li>
+	<li>Är Guest Additions installerat om uppgiften kräver det?</li>
+	<li>Är den virtuella maskinen omstartad efter större ändringar?</li>
+	<li>Läs eventuella felmeddelanden noggrant.</li>
+</ul>
+</div>
+
+<div style="background-color:#f0fdf4;border:1px solid #bbf7d0;border-radius:12px;padding:20px;">
+<h2 style="margin:0 0 13px 0;color:#15803d;font-size:21px;">✅ Innan du börjar första uppgiften</h2>
+
+<div style="margin-bottom:8px;">✓ VirtualBox är installerat.</div>
+
+<div style="margin-bottom:8px;">✓ Du vet var du hämtar Windows- och Linux-ISO-filer.</div>
+
+<div style="margin-bottom:8px;">✓ Du känner till skillnaden mellan host och guest.</div>
+
+<div style="margin-bottom:8px;">✓ Du vet vad en ISO-fil är.</div>
+
+<div style="margin-bottom:8px;">✓ Du förstår att en VM inte är en helt riskfri miljö.</div>
+
+<div style="margin-bottom:8px;">✓ Du laddar endast ner program från betrodda källor.</div>
+
+<div style="margin-bottom:8px;">✓ Du vet att skadlig programvara inte ska laddas ner eller testas.</div>
+
+<div>✓ Du vet var din dokumentation ska sparas.</div>
+</div>
+</div>
+</div>

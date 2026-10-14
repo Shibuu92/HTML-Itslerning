@@ -1,0 +1,130 @@
+<div style="max-width:900px;margin:20px auto;font-family:Arial, Helvetica, sans-serif;color:#1f2937;line-height:1.6;">
+<div style="background:linear-gradient(135deg, #374151, #111827);color:white;padding:28px 30px;border-radius:16px 16px 0 0;">
+<div style="font-size:14px;font-weight:bold;letter-spacing:1px;text-transform:uppercase;">ICT – Linux och terminalen</div>
+
+<h1 style="margin:6px 0 5px 0;font-size:30px;">🐧 Grunderna i Linux-terminalen</h1>
+
+<p style="margin:0;font-size:16px;">Lär dig navigera, skapa mappar och filer samt använda grundläggande kommandon i Linux.</p>
+</div>
+
+<div style="background-color:#ffffff;border:1px solid #e5e7eb;border-top:none;padding:28px;border-radius:0 0 16px 16px;">
+<div style="background-color:#f0fdf4;border-left:5px solid #16a34a;border-radius:10px;padding:18px 20px;margin-bottom:28px;">
+<h2 style="margin:0 0 7px 0;color:#15803d;font-size:21px;">🎯 Mål</h2>
+
+<p style="margin:0;">Lära sig grunderna i <strong>Linux-terminalen</strong> och förstå hur vanliga kommandon används för att navigera och arbeta med filer och mappar.</p>
+</div>
+
+<h2 style="font-size:23px;color:#111827;margin-bottom:18px;">📋 Instruktioner</h2>
+
+<div style="background-color:#f9fafb;border-left:5px solid #16a34a;border-radius:10px;padding:18px 20px;margin-bottom:16px;">
+<h3 style="margin:0 0 8px 0;color:#15803d;">1. Starta Ubuntu</h3>
+
+<p style="margin:0;">Starta din <strong>Ubuntu-VM</strong> i VirtualBox och öppna <strong>Terminal</strong>.</p>
+</div>
+
+<div style="background-color:#f9fafb;border-left:5px solid #16a34a;border-radius:10px;padding:18px 20px;margin-bottom:16px;">
+<h3 style="margin:0 0 8px 0;color:#15803d;">2. Testa terminalkommandon</h3>
+
+<p>Kör följande kommandon ett i taget. Undersök vad som händer och skriv ner vad varje kommando gör.</p>
+
+<div style="background-color:#ffffff;border:1px solid #d1fae5;border-radius:8px;padding:15px 18px;margin-bottom:10px;">
+<div style="background-color:#111827;color:#f9fafb;border-radius:6px;padding:10px 14px;font-family:Consolas, monospace;">$ pwd</div>
+
+<p style="margin:8px 0 0 0;">Kör kommandot och undersök vilken information som visas.</p>
+</div>
+
+<div style="background-color:#ffffff;border:1px solid #d1fae5;border-radius:8px;padding:15px 18px;margin-bottom:10px;">
+<div style="background-color:#111827;color:#f9fafb;border-radius:6px;padding:10px 14px;font-family:Consolas, monospace;">$ ls</div>
+
+<p style="margin:8px 0 0 0;">Kör kommandot och undersök vad som visas i terminalen.</p>
+</div>
+
+<div style="background-color:#ffffff;border:1px solid #d1fae5;border-radius:8px;padding:15px 18px;margin-bottom:10px;">
+<div style="background-color:#111827;color:#f9fafb;border-radius:6px;padding:10px 14px;font-family:Consolas, monospace;">$ cd</div>
+
+<p style="margin:8px 0 0 0;">Testa kommandot och använd det för att navigera mellan olika mappar.</p>
+</div>
+
+<div style="background-color:#ffffff;border:1px solid #d1fae5;border-radius:8px;padding:15px 18px;margin-bottom:10px;">
+<div style="background-color:#111827;color:#f9fafb;border-radius:6px;padding:10px 14px;font-family:Consolas, monospace;">$ mkdir</div>
+
+<p style="margin:8px 0 0 0;">Använd kommandot och testa att skapa en ny mapp.</p>
+</div>
+
+<div style="background-color:#ffffff;border:1px solid #d1fae5;border-radius:8px;padding:15px 18px;margin-bottom:10px;">
+<div style="background-color:#111827;color:#f9fafb;border-radius:6px;padding:10px 14px;font-family:Consolas, monospace;">$ nano</div>
+
+<p style="margin:8px 0;">eller</p>
+
+<div style="background-color:#111827;color:#f9fafb;border-radius:6px;padding:10px 14px;font-family:Consolas, monospace;">$ gedit</div>
+
+<p style="margin:8px 0 0 0;">Använd ett av programmen för att skapa eller redigera en textfil.</p>
+</div>
+
+<div style="background-color:#ffffff;border:1px solid #d1fae5;border-radius:8px;padding:15px 18px;">
+<div style="background-color:#111827;color:#f9fafb;border-radius:6px;padding:10px 14px;font-family:Consolas, monospace;">$ ping google.com</div>
+
+<p style="margin:8px 0 0 0;">Kör kommandot och undersök resultatet. Avsluta kommandot med <strong>Ctrl + C</strong>.</p>
+</div>
+</div>
+
+<div style="background-color:#f9fafb;border-left:5px solid #16a34a;border-radius:10px;padding:18px 20px;margin-bottom:28px;">
+<h3 style="margin:0 0 8px 0;color:#15803d;">3. Skapa en textfil</h3>
+
+<p>Skapa en enkel <strong>textfil</strong> och spara den i din hemkatalog.</p>
+
+<p style="margin-bottom:0;">Skriv valfri kort text i filen och kontrollera att filen har sparats.</p>
+</div>
+
+<div style="background-color:#f5f3ff;border-left:5px solid #7c3aed;border-radius:10px;padding:20px;margin-bottom:28px;">
+<h2 style="margin:0 0 12px 0;color:#6d28d9;font-size:21px;">📸 Dokumentation</h2>
+
+<p style="margin-top:0;">Dokumentera kommandona du använder och resultaten du får.</p>
+
+<ul style="margin-bottom:0;padding-left:22px;">
+	<li>Ta <strong>skärmbilder</strong> på kommandona och resultaten.</li>
+	<li>Skriv <strong>2–3 meningar per kommando</strong> där du förklarar vad kommandot gör.</li>
+	<li>Visa att textfilen har skapats och sparats i din hemkatalog.</li>
+</ul>
+</div>
+
+<div style="background-color:#eff6ff;border-left:5px solid #2563eb;border-radius:10px;padding:20px;margin-bottom:28px;">
+<h2 style="margin:0 0 12px 0;color:#1d4ed8;font-size:21px;">📝 Kommandon som ska förklaras</h2>
+
+<table style="width:100%;border-collapse:collapse;">
+	<tbody>
+		<tr>
+			<td style="padding:8px;"><strong>✓ pwd</strong></td>
+			<td style="padding:8px;"><strong>✓ ls</strong></td>
+			<td style="padding:8px;"><strong>✓ cd</strong></td>
+		</tr>
+		<tr>
+			<td style="padding:8px;"><strong>✓ mkdir</strong></td>
+			<td style="padding:8px;"><strong>✓ nano / gedit</strong></td>
+			<td style="padding:8px;"><strong>✓ ping</strong></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<div style="background-color:#f9fafb;border:1px solid #e5e7eb;border-radius:12px;padding:20px;margin-bottom:28px;">
+<h2 style="margin:0 0 12px 0;color:#111827;font-size:21px;">✅ Kontrollera innan du lämnar in</h2>
+
+<div style="margin-bottom:8px;">✓ Alla kommandon har testats.</div>
+
+<div style="margin-bottom:8px;">✓ Skärmbilder på kommandon och resultat finns med.</div>
+
+<div style="margin-bottom:8px;">✓ Varje kommando har förklarats med 2–3 meningar.</div>
+
+<div style="margin-bottom:8px;">✓ En textfil har skapats och sparats i hemkatalogen.</div>
+
+<div>✓ Dokumentationen är tydlig och i logisk ordning.</div>
+</div>
+
+<div style="background-color:#ecfdf5;border-left:5px solid #10b981;border-radius:10px;padding:19px 20px;">
+<h2 style="margin:0 0 8px 0;color:#047857;font-size:21px;">📤 Inlämning</h2>
+
+<p style="margin:0;">Spara er dokumentation och lämna in den i <strong>PDF- eller Word-format</strong>.</p>
+</div>
+</div>
+</div>

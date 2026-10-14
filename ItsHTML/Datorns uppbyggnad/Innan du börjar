@@ -1,0 +1,144 @@
+<div style="max-width:900px;margin:20px auto;font-family:Arial,Helvetica,sans-serif;color:#1f2937;line-height:1.6;">
+<div style="background:linear-gradient(135deg,#0f766e,#14b8a6);padding:28px 30px;border-radius:16px 16px 0 0;">
+<div style="font-size:14px;font-weight:bold;letter-spacing:1px;text-transform:uppercase;">ICT – DATORNS GRUNDER</div>
+
+<div style="margin:6px 0 5px;font-size:32px;font-weight:bold;line-height:1.3;">👋 Innan du börjar</div>
+
+<div style="font-size:16px;">Välkommen till Datorns grunder – läs igenom informationen innan du börjar arbeta med uppgifterna.</div>
+</div>
+
+<div style="background-color:#ffffff;border:1px solid #e5e7eb;border-top:none;padding:28px;border-radius:0 0 16px 16px;">
+<div style="background-color:#ecfdf5;border-left:5px solid #14b8a6;border-radius:10px;padding:18px 20px;margin-bottom:25px;">
+<h2 style="margin:0 0 10px;color:#0f766e;font-size:21px;">💻 Välkommen till Datorns grunder!</h2>
+
+<p style="margin:0 0 12px;">I det här kursavsnittet får du lära dig mer om hur datorer fungerar, vilka komponenter de innehåller och hur man arbetar med datorer inom IT-branschen.</p>
+
+<p style="margin:0;">Du kommer att arbeta med både <strong>teoretiska och praktiska uppgifter</strong>. Målet är att du ska förstå hur datorns olika delar fungerar och utveckla färdigheter som behövs i arbetet som IT-tekniker.</p>
+</div>
+
+<h2 style="font-size:23px;color:#111827;margin-bottom:15px;">🎯 Vad ska du lära dig?</h2>
+
+<div style="background-color:#f0fdfa;border-left:5px solid #14b8a6;border-radius:10px;padding:18px 20px;margin-bottom:28px;">
+<p style="margin:0 0 12px;">Under arbetets gång kommer du bland annat att lära dig att:</p>
+
+<ul style="margin:0;padding-left:22px;">
+	<li>Identifiera datorns viktigaste hårdvarukomponenter.</li>
+	<li>Förstå vad komponenterna används till och hur de samverkar.</li>
+	<li>Demontera och montera datorer på ett säkert sätt.</li>
+	<li>Förstå vanliga IT-termer och tekniska begrepp.</li>
+	<li>Undersöka hårddiskar, SSD-enheter och partitioner.</li>
+	<li>Använda grundläggande kommandon i Windows kommandotolk (CMD).</li>
+	<li>Undersöka datorns BIOS/UEFI-inställningar.</li>
+	<li>Arbeta med ISO-filer och förstå hur startbara USB-minnen fungerar.</li>
+	<li>Dokumentera tekniskt arbete och skriva tydliga instruktioner.</li>
+</ul>
+</div>
+
+<h2 style="font-size:23px;color:#111827;margin-bottom:15px;">📋 Hur ska du arbeta?</h2>
+
+<div style="background-color:#f9fafb;border:1px solid #e5e7eb;border-radius:12px;padding:20px;margin-bottom:28px;">
+<ol style="margin:0;padding-left:22px;">
+	<li style="margin-bottom:14px;"><strong>Läs igenom hela uppgiften.</strong> Se till att du förstår vad som ska göras innan du börjar.</li>
+	<li style="margin-bottom:14px;"><strong>Följ instruktionerna steg för steg.</strong> Hoppa inte över viktiga moment, särskilt inte när du arbetar med datorns hårdvara.</li>
+	<li style="margin-bottom:14px;"><strong>Arbeta självständigt.</strong> Försök först lösa problem genom att läsa instruktionerna, undersöka och söka information. Fråga läraren när du behöver hjälp.</li>
+	<li style="margin-bottom:14px;"><strong>Dokumentera ditt arbete.</strong> Skriv ner vad du gör, vilka resultat du får och vad du har lärt dig.</li>
+	<li style="margin-bottom:14px;"><strong>Kontrollera ditt arbete.</strong> Se till att du har genomfört alla delar och besvarat frågorna.</li>
+	<li><strong>Lämna in uppgiften i itslearning.</strong> Följ anvisningarna för filformat och filnamn som finns i respektive uppgift.</li>
+</ol>
+</div>
+
+<div style="background-color:#fff7ed;border-left:5px solid #f59e0b;border-radius:10px;padding:18px 20px;margin-bottom:28px;">
+<h2 style="margin:0 0 12px;color:#b45309;font-size:21px;">⚠️ Säkerhet och ansvar</h2>
+
+<p style="margin:0 0 12px;">När du arbetar med datorer och annan IT-utrustning är det viktigt att följa säkerhetsanvisningarna.</p>
+
+<ul style="margin:0;padding-left:22px;">
+	<li>Använd endast utrustning som läraren har godkänt.</li>
+	<li>Stäng av datorn och koppla bort strömmen innan du öppnar chassit.</li>
+	<li>Hantera komponenter och kablar försiktigt.</li>
+	<li>Tänk på statisk elektricitet när du hanterar känslig elektronik.</li>
+	<li>Öppna aldrig ett nätaggregat.</li>
+	<li>Ändra inte BIOS/UEFI-inställningar utan lärarens tillstånd.</li>
+	<li>Formatera inte diskar eller USB-minnen utan tillstånd.</li>
+	<li>Fråga läraren om du är osäker på något som kan skada utrustningen eller radera data.</li>
+</ul>
+</div>
+
+<h2 style="font-size:23px;color:#111827;margin-bottom:15px;">📝 Dokumentation och inlämningar</h2>
+
+<div style="background-color:#eff6ff;border-left:5px solid #3b82f6;border-radius:10px;padding:18px 20px;margin-bottom:28px;">
+<p style="margin:0 0 12px;">En viktig del av IT-arbete är att kunna förklara och dokumentera det man gör.</p>
+
+<p style="margin:0 0 12px;">I flera uppgifter ska du skapa en rapport eller ett dokument. Tänk då på följande:</p>
+
+<ul style="margin:0;padding-left:22px;">
+	<li>Skriv med <strong>egna ord</strong> och visa att du förstår innehållet.</li>
+	<li>Använd tydliga rubriker och dela upp texten i lämpliga avsnitt.</li>
+	<li>Besvara alla frågor som hör till uppgiften.</li>
+	<li>Ta skärmbilder eller fotografier när uppgiften kräver det.</li>
+	<li>Förklara vad bilderna visar.</li>
+	<li>Använd korrekta tekniska begrepp.</li>
+	<li>Kontrollera att dokumentet är tydligt och lätt att läsa.</li>
+</ul>
+
+<div style="background-color:#ffffff;border:1px solid #bfdbfe;border-radius:8px;padding:14px 16px;margin-top:16px;"><strong style="color:#1d4ed8;">💡 Kom ihåg!</strong>
+
+<p style="margin:7px 0 0;">Det räcker inte alltid att bara få rätt resultat. Du ska också kunna förklara <strong>hur du kom fram till resultatet och varför du gjorde på ett visst sätt</strong>.</p>
+</div>
+</div>
+
+<h2 style="font-size:23px;color:#111827;margin-bottom:15px;">🔎 Informationssökning och hjälpmedel</h2>
+
+<div style="background-color:#f9fafb;border:1px solid #e5e7eb;border-radius:12px;padding:20px;margin-bottom:28px;">
+<p style="margin:0 0 12px;">Du får använda olika informationskällor för att lära dig mer och lösa uppgifterna, om inte annat anges.</p>
+
+<ul style="margin:0 0 12px;padding-left:22px;">
+	<li>Kursmaterial och lärarens instruktioner.</li>
+	<li>Officiella webbplatser och teknisk dokumentation.</li>
+	<li>Sökmotorer och guider på internet.</li>
+	<li>AI-verktyg som stöd för att förstå begrepp och få förklaringar, enligt lärarens anvisningar.</li>
+</ul>
+
+<p style="margin:0;"><strong>Viktigt:</strong> Kopiera inte bara färdiga svar. Kontrollera att informationen stämmer och skriv dina förklaringar med egna ord. Du ska kunna förklara dina svar för läraren.</p>
+</div>
+
+<div style="background-color:#f0fdfa;border-left:5px solid #14b8a6;border-radius:10px;padding:18px 20px;margin-bottom:28px;">
+<h2 style="margin:0 0 10px;color:#0f766e;font-size:21px;">🧩 Om något inte fungerar</h2>
+
+<p style="margin:0 0 12px;">Inom IT fungerar inte allting alltid på första försöket. Felsökning är en viktig del av arbetet.</p>
+
+<p style="margin:0 0 10px;">Om du stöter på ett problem:</p>
+
+<ol style="margin:0;padding-left:22px;">
+	<li>Läs igenom instruktionerna en gång till.</li>
+	<li>Kontrollera vad du har gjort hittills.</li>
+	<li>Försök förstå vad som orsakar problemet.</li>
+	<li>Sök efter information om problemet.</li>
+	<li>Dokumentera eventuella felmeddelanden.</li>
+	<li>Be läraren om hjälp om problemet kvarstår eller om det finns risk att skada utrustningen.</li>
+</ol>
+</div>
+
+<div style="background-color:#f9fafb;border:1px solid #e5e7eb;border-radius:12px;padding:20px;margin-bottom:28px;">
+<h2 style="margin:0 0 12px;color:#111827;font-size:21px;">✅ Innan du börjar med Uppgift 1</h2>
+
+<div style="margin-bottom:9px;">☐ Jag har läst igenom informationen på denna sida.</div>
+
+<div style="margin-bottom:9px;">☐ Jag vet hur jag hittar uppgifterna i itslearning.</div>
+
+<div style="margin-bottom:9px;">☐ Jag förstår att säkerheten är viktig vid praktiskt arbete.</div>
+
+<div style="margin-bottom:9px;">☐ Jag vet att jag ska dokumentera mitt arbete.</div>
+
+<div style="margin-bottom:9px;">☐ Jag vet hur jag ska lämna in mina uppgifter.</div>
+
+<div>☐ Jag vet att jag ska fråga läraren om jag är osäker.</div>
+</div>
+
+<div style="background-color:#ecfdf5;border:1px solid #a7f3d0;border-radius:12px;padding:20px;">
+<h2 style="margin:0 0 8px;color:#047857;font-size:22px;">🚀 Nu är du redo att börja!</h2>
+
+<p style="margin:0;">Börja med <strong>Uppgift 1 – Datorns viktigaste komponenter</strong>. Arbeta noggrant, var nyfiken och försök förstå hur datorns olika delar fungerar tillsammans.</p>
+</div>
+</div>
+</div>

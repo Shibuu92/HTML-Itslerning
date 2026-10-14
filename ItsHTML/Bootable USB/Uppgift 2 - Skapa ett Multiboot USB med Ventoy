@@ -1,0 +1,170 @@
+<div style="max-width:900px;margin:20px auto;font-family:Arial, Helvetica, sans-serif;color:#1f2937;line-height:1.6;">
+<div style="background:linear-gradient(135deg, #0f766e, #2563eb);color:white;padding:28px 30px;border-radius:16px 16px 0 0;">
+<div style="font-size:14px;font-weight:bold;letter-spacing:1px;text-transform:uppercase;">ICT – USB och installationsmedia</div>
+
+<h1 style="margin:6px 0 5px 0;font-size:30px;">💾 Skapa ett Multiboot USB med Ventoy</h1>
+
+<p style="margin:0;font-size:16px;">Skapa ett USB-minne som kan innehålla och starta flera olika operativsystem och verktyg.</p>
+</div>
+
+<div style="background-color:#ffffff;border:1px solid #e5e7eb;border-top:none;padding:28px;border-radius:0 0 16px 16px;">
+<div style="background-color:#ecfeff;border-left:5px solid #0891b2;border-radius:10px;padding:18px 20px;margin-bottom:28px;">
+<h2 style="margin:0 0 7px 0;color:#0e7490;font-size:21px;">🎯 Mål</h2>
+
+<p style="margin:0;">Lära sig skapa ett USB-minne som kan starta <strong>flera olika operativsystem och verktyg</strong>, utan att behöva skapa om USB-minnet för varje ny ISO-fil.</p>
+</div>
+
+<div style="background-color:#eff6ff;border-left:5px solid #2563eb;border-radius:10px;padding:20px;margin-bottom:28px;">
+<h2 style="margin:0 0 10px 0;color:#1d4ed8;font-size:21px;">💡 Bakgrund</h2>
+
+<p>Ett <strong>multiboot USB-minne</strong> gör det möjligt att starta flera olika operativsystem och felsökningsverktyg från samma USB-minne.</p>
+
+<p style="margin-bottom:8px;">Detta används ofta av IT-tekniker för att:</p>
+
+<ul style="margin-bottom:0;padding-left:22px;">
+	<li>Installera olika operativsystem, till exempel Windows och Linux.</li>
+	<li>Köra antivirus- och räddningsverktyg.</li>
+	<li>Återställa eller reparera datorer.</li>
+</ul>
+</div>
+
+<div style="border:1px solid #e5e7eb;border-radius:12px;padding:22px;margin-bottom:28px;">
+<h2 style="margin:0 0 14px 0;color:#111827;font-size:22px;">🧰 Material som behövs</h2>
+
+<div style="background-color:#f9fafb;border-radius:9px;padding:14px 17px;margin-bottom:10px;">💾 <strong>USB-minne</strong><br />
+Minst <strong>16 GB</strong>. 32 GB rekommenderas.</div>
+
+<div style="background-color:#f9fafb;border-radius:9px;padding:14px 17px;margin-bottom:10px;">🔧 <strong>Ventoy</strong><br />
+Gratis program för att skapa ett multiboot USB.<br />
+<a href="https://www.ventoy.net" style="color:#2563eb;font-weight:bold;" target="_blank">Ventoy – officiell webbplats </a></div>
+
+<div style="background-color:#f9fafb;border-radius:9px;padding:14px 17px;">💿 <strong>Minst två ISO-filer</strong>
+
+<ul style="margin-bottom:0;padding-left:22px;">
+	<li>Windows 11 ISO</li>
+	<li>Debian eller Ubuntu Linux ISO</li>
+	<li>Eventuellt ett återställningsverktyg, till exempel Hiren's BootCD PE</li>
+</ul>
+</div>
+</div>
+
+<div style="background-color:#fef2f2;border:2px solid #ef4444;border-radius:12px;padding:20px;margin-bottom:30px;">
+<h2 style="margin:0 0 9px 0;color:#b91c1c;font-size:21px;">⚠️ Viktigt innan du börjar</h2>
+
+<p style="margin:0;">När Ventoy installeras på USB-minnet kommer <strong>innehållet på USB-minnet att raderas</strong>. Kontrollera därför noggrant att du har valt <strong>rätt USB-enhet</strong> innan du klickar på Install.</p>
+
+<p style="margin:10px 0 0 0;">Om USB-minnet innehåller viktiga filer ska dessa säkerhetskopieras innan du fortsätter.</p>
+</div>
+
+<div style="background-color:#ecfeff;border-radius:12px;padding:20px 22px;margin-bottom:18px;">
+<div style="font-size:13px;color:#0891b2;font-weight:bold;text-transform:uppercase;">Del 1</div>
+
+<h2 style="margin:3px 0 5px 0;color:#0e7490;font-size:24px;">🔧 Installera Ventoy på USB-minnet</h2>
+</div>
+
+<div style="border:1px solid #e5e7eb;border-radius:10px;padding:20px;margin-bottom:30px;">
+<ol style="margin:0;padding-left:24px;">
+	<li style="margin-bottom:10px;">Ladda ner <strong>Ventoy</strong> och packa upp filerna.</li>
+	<li style="margin-bottom:10px;">Starta <code style="background-color:#f3f4f6;padding:3px 6px;border-radius:4px;">Ventoy2Disk.exe</code>.</li>
+	<li style="margin-bottom:10px;">Välj ditt USB-minne under <strong>Device</strong>.</li>
+	<li style="margin-bottom:10px;">Kontrollera en extra gång att <strong>rätt USB-enhet</strong> är vald.</li>
+	<li style="margin-bottom:10px;">Klicka på <strong>Install</strong>.</li>
+	<li>Vänta tills installationen är klar.</li>
+</ol>
+
+<div style="background-color:#fff7ed;border-left:5px solid #f59e0b;border-radius:8px;padding:14px 17px;margin-top:18px;"><strong style="color:#b45309;">⚠️ OBS!</strong><br />
+Alla befintliga filer på det valda USB-minnet raderas när Ventoy installeras.</div>
+</div>
+
+<div style="background-color:#eef2ff;border-radius:12px;padding:20px 22px;margin-bottom:18px;">
+<div style="font-size:13px;color:#4f46e5;font-weight:bold;text-transform:uppercase;">Del 2</div>
+
+<h2 style="margin:3px 0 5px 0;color:#4338ca;font-size:24px;">💿 Lägg till ISO-filer</h2>
+</div>
+
+<div style="border:1px solid #e5e7eb;border-radius:10px;padding:20px;margin-bottom:30px;">
+<ol style="margin:0;padding-left:24px;">
+	<li style="margin-bottom:10px;">Hämta de ISO-filer som ska användas.</li>
+	<li style="margin-bottom:10px;">Kopiera ISO-filerna <strong>direkt till USB-minnet</strong>.</li>
+	<li>ISO-filerna behöver <strong>inte extraheras eller packas upp</strong>.</li>
+</ol>
+
+<div style="background-color:#f5f3ff;border-left:5px solid #7c3aed;border-radius:9px;padding:16px 18px;margin-top:18px;"><strong style="color:#6d28d9;">📁 Tips – organisera filerna</strong>
+
+<p style="margin:7px 0 10px 0;">Du kan skapa mappar på USB-minnet för att hålla ISO-filerna organiserade.</p>
+
+<div style="background-color:#111827;color:#f9fafb;border-radius:7px;padding:13px 16px;font-family:Consolas, monospace;">\Windows<br />
+\Linux<br />
+\Tools</div>
+</div>
+</div>
+
+<div style="background-color:#f0fdf4;border-radius:12px;padding:20px 22px;margin-bottom:18px;">
+<div style="font-size:13px;color:#16a34a;font-weight:bold;text-transform:uppercase;">Del 3</div>
+
+<h2 style="margin:3px 0 5px 0;color:#15803d;font-size:24px;">🚀 Testa USB-minnet</h2>
+</div>
+
+<div style="border:1px solid #e5e7eb;border-radius:10px;padding:20px;margin-bottom:28px;">
+<ol style="margin:0;padding-left:24px;">
+	<li style="margin-bottom:10px;">Starta om datorn.</li>
+	<li style="margin-bottom:10px;">Öppna datorns <strong>Boot Menu</strong>.</li>
+	<li style="margin-bottom:10px;">Välj USB-minnet som startenhet.</li>
+	<li style="margin-bottom:10px;">Kontrollera att <strong>Ventoy-menyn</strong> visas och att dina ISO-filer finns i menyn.</li>
+	<li>Starta en av ISO-filerna och kontrollera att installationsprogrammet eller verktyget laddas.</li>
+</ol>
+
+<div style="background-color:#eff6ff;border-left:5px solid #2563eb;border-radius:8px;padding:14px 17px;margin-top:18px;"><strong>⌨️ Boot Menu</strong><br />
+Vilken tangent som öppnar Boot Menu varierar mellan olika datorer. Vanliga tangenter är exempelvis <strong>F12, F11, Esc eller F9</strong>.</div>
+
+<div style="background-color:#fff7ed;border-left:5px solid #f59e0b;border-radius:8px;padding:14px 17px;margin-top:12px;"><strong style="color:#b45309;">⚠️ OBS!</strong><br />
+Du behöver endast kontrollera att ISO-filen <strong>startar korrekt</strong>. Installera inte om skolans eller värddatorns operativsystem.</div>
+</div>
+
+<div style="background-color:#f5f3ff;border-left:5px solid #7c3aed;border-radius:10px;padding:20px;margin-bottom:28px;">
+<h2 style="margin:0 0 12px 0;color:#6d28d9;font-size:21px;">📸 Dokumentation</h2>
+
+<p style="margin-top:0;">Dokumentera hela arbetsprocessen med egna skärmbilder och korta förklaringar.</p>
+
+<ul style="margin-bottom:0;padding-left:22px;">
+	<li style="margin-bottom:7px;">Visa hur <strong>Ventoy installeras</strong> på USB-minnet.</li>
+	<li style="margin-bottom:7px;">Visa vilka <strong>ISO-filer</strong> som har kopierats till USB-minnet.</li>
+	<li style="margin-bottom:7px;">Visa <strong>Ventoy-menyn</strong> när datorn startas från USB-minnet.</li>
+	<li style="margin-bottom:7px;">Skriv en <strong>kort beskrivning av varje ISO-fil</strong> som du har lagt till.</li>
+	<li>Skriv en kort förklaring till varje skärmbild.</li>
+</ul>
+</div>
+
+<div style="background-color:#ecfeff;border-left:5px solid #0891b2;border-radius:10px;padding:20px;margin-bottom:28px;">
+<h2 style="margin:0 0 10px 0;color:#0e7490;font-size:21px;">💭 Reflektion</h2>
+
+<p style="margin:0;">Förklara med egna ord: <strong>Vilka fördelar har ett multiboot USB jämfört med ett vanligt installations-USB?</strong></p>
+</div>
+
+<div style="background-color:#f9fafb;border:1px solid #e5e7eb;border-radius:12px;padding:20px;margin-bottom:28px;">
+<h2 style="margin:0 0 13px 0;color:#111827;font-size:21px;">✅ Kontrollera innan du lämnar in</h2>
+
+<div style="margin-bottom:8px;">✓ Ventoy är installerat på USB-minnet.</div>
+
+<div style="margin-bottom:8px;">✓ Minst två olika ISO-filer finns på USB-minnet.</div>
+
+<div style="margin-bottom:8px;">✓ ISO-filerna går att se i Ventoy-menyn.</div>
+
+<div style="margin-bottom:8px;">✓ Minst en ISO-fil har testats och startar korrekt.</div>
+
+<div style="margin-bottom:8px;">✓ Processen är dokumenterad med egna skärmbilder.</div>
+
+<div style="margin-bottom:8px;">✓ Varje ISO-fil har en kort beskrivning.</div>
+
+<div>✓ Reflektionsfrågan är besvarad.</div>
+</div>
+
+<div style="background-color:#ecfdf5;border-left:5px solid #10b981;border-radius:10px;padding:19px 20px;">
+<h2 style="margin:0 0 8px 0;color:#047857;font-size:21px;">📤 Inlämning</h2>
+
+<p style="margin:0 0 10px 0;">Spara dokumentationen som ett <strong>Word-dokument</strong> och lämna in det i itslearning.</p>
+
+<div style="background-color:#ffffff;border:1px solid #a7f3d0;border-radius:7px;padding:11px 14px;font-family:Consolas, monospace;">multibootusb_efternamn.docx</div>
+</div>
+</div>
+</div>

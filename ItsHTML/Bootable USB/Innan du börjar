@@ -1,0 +1,261 @@
+<div style="max-width:900px;margin:20px auto;font-family:Arial, Helvetica, sans-serif;color:#1f2937;line-height:1.6;">
+<div style="background:linear-gradient(135deg, #0f766e, #2563eb);color:white;padding:30px;border-radius:16px 16px 0 0;">
+<div style="font-size:14px;font-weight:bold;letter-spacing:1px;text-transform:uppercase;">ICT – USB och installationsmedia</div>
+
+<h1 style="margin:6px 0 5px 0;font-size:30px;">💾 Innan du börjar – USB, ISO-filer och verktyg</h1>
+
+<p style="margin:0;font-size:16px;">Läs igenom denna sida innan du börjar arbeta med USB-uppgifterna.</p>
+</div>
+
+<div style="background-color:#ffffff;border:1px solid #e5e7eb;border-top:none;padding:28px;border-radius:0 0 16px 16px;">
+<div style="background-color:#eff6ff;border-left:5px solid #2563eb;border-radius:10px;padding:19px 20px;margin-bottom:28px;">
+<h2 style="margin:0 0 8px 0;color:#1d4ed8;font-size:21px;">🎯 Vad kommer du att arbeta med?</h2>
+
+<p style="margin:0 0 10px 0;">Under USB-uppgifterna kommer du att arbeta med flera vanliga verktyg och metoder som används av IT-tekniker för installation, felsökning och hantering av datorer.</p>
+
+<p style="margin:0;">Du kommer bland annat att arbeta med <strong>ISO-filer, bootbara USB-minnen, Diskpart, partitioner, filsystem, Windows Recovery USB, Rufus och Ventoy</strong>.</p>
+</div>
+
+<div style="background-color:#fef2f2;border:2px solid #ef4444;border-radius:12px;padding:22px;margin-bottom:30px;">
+<h2 style="margin:0 0 10px 0;color:#b91c1c;font-size:22px;">⚠️ Viktigt innan du börjar</h2>
+
+<p style="margin-top:0;">Många av uppgifterna innebär att ett USB-minne <strong>formateras eller raderas</strong>. I vissa uppgifter kommer du även att använda verktyg som Diskpart.</p>
+
+<div style="background-color:#ffffff;border-radius:8px;padding:15px 18px;margin:15px 0;"><strong style="color:#b91c1c;">🚫 Kontrollera alltid vilken disk eller vilket USB-minne du arbetar med innan du raderar eller formaterar något. </strong></div>
+
+<ul style="margin-bottom:0;padding-left:22px;">
+	<li style="margin-bottom:7px;">USB-minnet får inte innehålla viktiga filer.</li>
+	<li style="margin-bottom:7px;">Säkerhetskopiera filer innan USB-minnet formateras.</li>
+	<li style="margin-bottom:7px;">Kontrollera USB-minnets <strong>storlek och enhetsbokstav</strong>.</li>
+	<li style="margin-bottom:7px;">Var extra försiktig när du använder <strong>Diskpart</strong> och kommandot <code>clean</code>.</li>
+	<li>Installera eller återställ aldrig operativsystemet på skolans dator om uppgiften endast säger att du ska testa USB-minnet.</li>
+</ul>
+</div>
+
+<div style="background-color:#f0fdf4;border-left:5px solid #16a34a;border-radius:10px;padding:20px;margin-bottom:30px;">
+<h2 style="margin:0 0 12px 0;color:#15803d;font-size:21px;">🧰 Vad behöver du?</h2>
+
+<div style="margin-bottom:8px;">✓ Windows-dator</div>
+
+<div style="margin-bottom:8px;">✓ Ett eller flera USB-minnen</div>
+
+<div style="margin-bottom:8px;">✓ Administratörsrättigheter</div>
+
+<div style="margin-bottom:8px;">✓ Internetanslutning för nedladdning av program och ISO-filer</div>
+
+<div style="margin-bottom:8px;">✓ Windows 11 ISO</div>
+
+<div style="margin-bottom:8px;">✓ Ubuntu Linux ISO</div>
+
+<div style="margin-bottom:8px;">✓ Rufus</div>
+
+<div style="margin-bottom:8px;">✓ Ventoy</div>
+
+<div>✓ Media Creation Tool</div>
+</div>
+
+<div style="background-color:#eef2ff;border-radius:12px;padding:20px 22px;margin-bottom:18px;">
+<h2 style="margin:0;color:#4338ca;font-size:24px;">📥 Program och ISO-filer</h2>
+</div>
+
+<div style="border:1px solid #e5e7eb;border-radius:12px;padding:20px;margin-bottom:30px;">
+<p style="margin-top:0;">Använd i första hand <strong>officiella webbplatser</strong> när du laddar ner operativsystem och program.</p>
+
+<div style="background-color:#eff6ff;border-radius:10px;padding:18px;margin-bottom:14px;">
+<h3 style="margin:0 0 7px 0;color:#1d4ed8;font-size:19px;">🪟 Windows 11 ISO</h3>
+
+<p style="margin:0 0 8px 0;">En Windows 11 ISO innehåller installationsfilerna för Windows och kan användas med exempelvis Rufus, Ventoy, Diskpart eller i en virtuell maskin.</p>
+<strong>Officiell nedladdning:</strong><br />
+<a href="https://www.microsoft.com/software-download/windows11" style="color:#2563eb;font-weight:bold;" target="_blank">Microsoft – Download Windows 11 </a></div>
+
+<div style="background-color:#eff6ff;border-radius:10px;padding:18px;margin-bottom:14px;">
+<h3 style="margin:0 0 7px 0;color:#1d4ed8;font-size:19px;">🛠️ Windows 11 Media Creation Tool</h3>
+
+<p style="margin:0 0 8px 0;">Microsofts eget verktyg för att skapa installationsmedia för Windows 11. Verktyget kan användas för att skapa ett bootbart USB-minne.</p>
+<strong>Officiell nedladdning:</strong><br />
+<a href="https://www.microsoft.com/software-download/windows11" style="color:#2563eb;font-weight:bold;" target="_blank">Microsoft – Media Creation Tool </a></div>
+
+<div style="background-color:#fff7ed;border-radius:10px;padding:18px;margin-bottom:14px;">
+<h3 style="margin:0 0 7px 0;color:#c2410c;font-size:19px;">🐧 Ubuntu Desktop ISO</h3>
+
+<p style="margin:0 0 8px 0;">Ubuntu är en Linux-distribution. ISO-filen kan användas för att installera Ubuntu, skapa ett bootbart USB eller starta Ubuntu i en virtuell maskin.</p>
+<strong>Officiell nedladdning:</strong><br />
+<a href="https://ubuntu.com/download/desktop" style="color:#c2410c;font-weight:bold;" target="_blank">Ubuntu – Download Ubuntu Desktop </a></div>
+
+<div style="background-color:#ecfeff;border-radius:10px;padding:18px;margin-bottom:14px;">
+<h3 style="margin:0 0 7px 0;color:#0e7490;font-size:19px;">🚀 Rufus</h3>
+
+<p style="margin:0 0 8px 0;">Rufus används för att skapa ett <strong>bootbart USB-minne från en ISO-fil</strong>. Det kan exempelvis användas med Windows- och Linux-ISO-filer.</p>
+<strong>Officiell nedladdning:</strong><br />
+<a href="https://rufus.ie/" style="color:#0891b2;font-weight:bold;" target="_blank">Rufus – Official Website </a></div>
+
+<div style="background-color:#f5f3ff;border-radius:10px;padding:18px;">
+<h3 style="margin:0 0 7px 0;color:#6d28d9;font-size:19px;">💿 Ventoy</h3>
+
+<p style="margin:0 0 8px 0;">Ventoy används för att skapa ett <strong>multiboot USB</strong>. Efter att Ventoy installerats på USB-minnet kan flera ISO-filer kopieras till samma USB-minne.</p>
+<strong>Officiell nedladdning:</strong><br />
+<a href="https://www.ventoy.net/en/download.html" style="color:#7c3aed;font-weight:bold;" target="_blank">Ventoy – Download </a></div>
+</div>
+
+<div style="background-color:#ecfeff;border-left:5px solid #0891b2;border-radius:10px;padding:20px;margin-bottom:28px;">
+<h2 style="margin:0 0 9px 0;color:#0e7490;font-size:21px;">💿 Vad är en ISO-fil?</h2>
+
+<p style="margin:0 0 10px 0;">En <strong>ISO-fil</strong> är en avbildning av ett installationsmedium. Den kan exempelvis innehålla alla filer som behövs för att installera Windows eller Linux.</p>
+
+<p style="margin:0;">Att endast kopiera en ISO-fil till ett vanligt USB-minne gör normalt <strong>inte USB-minnet bootbart</strong>. Ett verktyg eller en metod för att skapa installationsmediet behövs. Ventoy fungerar annorlunda eftersom Ventoy först installeras på USB-minnet och därefter kan ISO-filer kopieras till det.</p>
+</div>
+
+<div style="background-color:#f5f3ff;border-left:5px solid #7c3aed;border-radius:10px;padding:20px;margin-bottom:28px;">
+<h2 style="margin:0 0 9px 0;color:#6d28d9;font-size:21px;">🚀 Vad betyder bootbart USB?</h2>
+
+<p style="margin:0;">Ett <strong>bootbart USB</strong> är ett USB-minne som datorn kan starta från. Det kan exempelvis innehålla ett operativsystem, ett installationsprogram, ett återställningsverktyg eller andra felsökningsverktyg.</p>
+</div>
+
+<div style="border:1px solid #e5e7eb;border-radius:12px;padding:20px;margin-bottom:30px;overflow-x:auto;">
+<h2 style="margin:0 0 14px 0;color:#111827;font-size:21px;">🔧 Vad används de olika verktygen till?</h2>
+
+<table style="width:100%;border-collapse:collapse;min-width:650px;">
+	<tbody>
+		<tr style="background-color:#f3f4f6;color:#000000;">
+			<th style="padding:11px;border:1px solid #d1d5db;text-align:left;color:#000000;">Verktyg</th>
+			<th style="padding:11px;border:1px solid #d1d5db;text-align:left;color:#000000;">Användning</th>
+		</tr>
+		<tr>
+			<td style="padding:10px;border:1px solid #d1d5db;"><strong>Media Creation Tool</strong></td>
+			<td style="padding:10px;border:1px solid #d1d5db;">Skapar Windows installationsmedia med Microsofts eget verktyg.</td>
+		</tr>
+		<tr style="background-color:#f9fafb;">
+			<td style="padding:10px;border:1px solid #d1d5db;"><strong>Rufus</strong></td>
+			<td style="padding:10px;border:1px solid #d1d5db;">Skapar bootbart USB från exempelvis en Windows- eller Linux-ISO.</td>
+		</tr>
+		<tr>
+			<td style="padding:10px;border:1px solid #d1d5db;"><strong>Ventoy</strong></td>
+			<td style="padding:10px;border:1px solid #d1d5db;">Gör det möjligt att ha flera bootbara ISO-filer på samma USB-minne.</td>
+		</tr>
+		<tr style="background-color:#f9fafb;">
+			<td style="padding:10px;border:1px solid #d1d5db;"><strong>Diskpart</strong></td>
+			<td style="padding:10px;border:1px solid #d1d5db;">Kommandoradsverktyg för att hantera diskar, partitioner och volymer.</td>
+		</tr>
+		<tr>
+			<td style="padding:10px;border:1px solid #d1d5db;"><strong>Recovery Drive</strong></td>
+			<td style="padding:10px;border:1px solid #d1d5db;">Skapar ett USB för felsökning och återställning av Windows.</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<div style="background-color:#fff7ed;border-left:5px solid #f59e0b;border-radius:10px;padding:20px;margin-bottom:28px;">
+<h2 style="margin:0 0 9px 0;color:#b45309;font-size:21px;">📁 Filsystem</h2>
+
+<p style="margin:0 0 10px 0;">När ett USB-minne formateras behöver det ett <strong>filsystem</strong>. Under uppgifterna kommer du bland annat att arbeta med:</p>
+
+<div style="margin-bottom:7px;"><strong>FAT32</strong> – mycket kompatibelt, men har begränsningar för stora filer.</div>
+
+<div style="margin-bottom:7px;"><strong>exFAT</strong> – passar bra för USB-minnen och stora filer.</div>
+
+<div><strong>NTFS</strong> – Windows standardfilsystem med fler funktioner och stöd för stora filer.</div>
+</div>
+
+<div style="background-color:#eff6ff;border-left:5px solid #2563eb;border-radius:10px;padding:20px;margin-bottom:28px;">
+<h2 style="margin:0 0 9px 0;color:#1d4ed8;font-size:21px;">🖥️ BIOS/UEFI och Boot Menu</h2>
+
+<p style="margin:0 0 10px 0;">För att testa ett bootbart USB behöver datorn starta från USB-minnet istället för från den vanliga hårddisken eller SSD:n.</p>
+
+<p style="margin:0 0 10px 0;">Detta görs vanligtvis via datorns <strong>Boot Menu</strong> eller <strong>BIOS/UEFI</strong>.</p>
+
+<p style="margin:0;">Vanliga tangenter är exempelvis <strong>F12, F11, F9 eller Esc</strong>, men vilken tangent som används beror på datorns tillverkare och modell.</p>
+</div>
+
+<div style="background-color:#fef2f2;border-left:5px solid #dc2626;border-radius:10px;padding:20px;margin-bottom:28px;">
+<h2 style="margin:0 0 9px 0;color:#b91c1c;font-size:21px;">⚠️ Diskpart kräver extra försiktighet</h2>
+
+<p style="margin:0 0 10px 0;">Diskpart kan användas för att skapa och ta bort partitioner, formatera lagringsenheter och förbereda USB-minnen.</p>
+
+<p style="margin:0 0 10px 0;">Kommandot <code>clean</code> tar bort partitioneringsinformationen från den valda disken. Därför måste du alltid kontrollera vilken disk som är vald.</p>
+
+<div style="background-color:#ffffff;border-radius:7px;padding:12px 15px;font-family:Consolas, monospace;">list disk<br />
+select disk X<br />
+detail disk</div>
+
+<p style="margin:10px 0 0 0;">Använd dessa kommandon för att kontrollera att du arbetar med rätt USB-minne innan du gör ändringar.</p>
+</div>
+
+<div style="background-color:#f0fdf4;border-left:5px solid #16a34a;border-radius:10px;padding:20px;margin-bottom:28px;">
+<h2 style="margin:0 0 9px 0;color:#15803d;font-size:21px;">🔒 Ladda ner från rätt källa</h2>
+
+<p style="margin:0 0 10px 0;">Som IT-tekniker är det viktigt att kontrollera <strong>varifrån program och ISO-filer kommer</strong>.</p>
+
+<ul style="margin-bottom:0;padding-left:22px;">
+	<li style="margin-bottom:7px;">Använd officiella webbplatser när det är möjligt.</li>
+	<li style="margin-bottom:7px;">Undvik okända nedladdningssidor.</li>
+	<li style="margin-bottom:7px;">Ladda inte ner modifierade eller piratkopierade Windows ISO-filer.</li>
+	<li style="margin-bottom:7px;">Var försiktig med annonser som ser ut som nedladdningsknappar.</li>
+	<li>Kontrollera filnamn och källa innan du kör ett nedladdat program.</li>
+</ul>
+</div>
+
+<div style="background-color:#f5f3ff;border-left:5px solid #7c3aed;border-radius:10px;padding:20px;margin-bottom:28px;">
+<h2 style="margin:0 0 9px 0;color:#6d28d9;font-size:21px;">📸 Kom ihåg dokumentationen</h2>
+
+<p style="margin:0 0 10px 0;">I USB-uppgifterna ska du dokumentera ditt arbete medan du arbetar. Vänta inte tills hela uppgiften är färdig.</p>
+
+<div style="margin-bottom:7px;">✓ Ta skärmbilder på viktiga steg.</div>
+
+<div style="margin-bottom:7px;">✓ Skriv kort vad du gjorde.</div>
+
+<div style="margin-bottom:7px;">✓ Dokumentera kommandon som du använder.</div>
+
+<div style="margin-bottom:7px;">✓ Dokumentera eventuella felmeddelanden.</div>
+
+<div>✓ Förklara hur du löste problem som uppstod.</div>
+</div>
+
+<div style="background-color:#f9fafb;border:1px solid #e5e7eb;border-radius:12px;padding:20px;">
+<h2 style="margin:0 0 10px 0;color:#111827;font-size:21px;">🎓 Efter USB-uppgifterna ska du kunna</h2>
+
+<p style="margin:0 0 16px 0;">När du har genomfört USB-uppgifterna ska du ha fått praktisk erfarenhet av installationsmedia, partitionering, filsystem och återställningsverktyg. Du ska bland annat kunna:</p>
+
+<div style="margin-bottom:9px;">✓ Förklara vad en <strong>ISO-fil</strong> är och vad den används till.</div>
+
+<div style="margin-bottom:9px;">✓ Förklara vad ett <strong>bootbart USB</strong> är och när det används.</div>
+
+<div style="margin-bottom:9px;">✓ Ladda ner Windows- och Linux-ISO-filer från <strong>officiella källor</strong>.</div>
+
+<div style="margin-bottom:9px;">✓ Skapa ett <strong>bootbart Windows USB</strong>.</div>
+
+<div style="margin-bottom:9px;">✓ Använda <strong>Rufus</strong> och förstå vad programmet används till.</div>
+
+<div style="margin-bottom:9px;">✓ Använda <strong>Ventoy</strong> för att skapa ett multiboot USB med flera ISO-filer.</div>
+
+<div style="margin-bottom:9px;">✓ Använda <strong>Media Creation Tool</strong> för att skapa installationsmedia för Windows.</div>
+
+<div style="margin-bottom:9px;">✓ Använda grundläggande funktioner i <strong>Diskpart</strong>.</div>
+
+<div style="margin-bottom:9px;">✓ Identifiera rätt disk med <code>list disk</code> och kontrollera den innan ändringar görs.</div>
+
+<div style="margin-bottom:9px;">✓ Skapa, formatera och ta bort <strong>partitioner</strong> på ett USB-minne.</div>
+
+<div style="margin-bottom:9px;">✓ Förklara vad ett <strong>filsystem</strong> är.</div>
+
+<div style="margin-bottom:9px;">✓ Förklara skillnader mellan <strong>FAT32, exFAT och NTFS</strong>.</div>
+
+<div style="margin-bottom:9px;">✓ Välja ett lämpligt filsystem beroende på hur lagringsenheten ska användas.</div>
+
+<div style="margin-bottom:9px;">✓ Förstå varför FAT32 har problem med <strong>enskilda filer större än 4 GB</strong>.</div>
+
+<div style="margin-bottom:9px;">✓ Skapa ett <strong>Windows Recovery USB</strong> och förklara vad det används till.</div>
+
+<div style="margin-bottom:9px;">✓ Förklara skillnaden mellan ett <strong>Recovery USB</strong> och ett <strong>Windows installations-USB</strong>.</div>
+
+<div style="margin-bottom:9px;">✓ Använda datorns <strong>Boot Menu</strong> för att välja vilken enhet datorn ska starta från.</div>
+
+<div style="margin-bottom:9px;">✓ Förstå grundprincipen bakom <strong>BIOS/UEFI</strong> och dess roll vid uppstart.</div>
+
+<div style="margin-bottom:9px;">✓ Testa om ett USB-minne är bootbart utan att av misstag installera om datorn.</div>
+
+<div style="margin-bottom:9px;">✓ Arbeta säkert med USB-minnen, formatering och partitionering utan att radera fel lagringsenhet.</div>
+
+<div>✓ Dokumentera ett tekniskt arbete med <strong>skärmbilder, kommandon, resultat och egna förklaringar</strong>.</div>
+</div>
+</div>
+</div>

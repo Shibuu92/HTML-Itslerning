@@ -1,0 +1,156 @@
+<div style="max-width:900px;margin:20px auto;font-family:Arial, Helvetica, sans-serif;color:#1f2937;line-height:1.6;">&nbsp; &nbsp;
+<div style="background:linear-gradient(135deg, #0078d4, #2563eb);color:white;padding:28px 30px;border-radius:16px 16px 0 0;">&nbsp; &nbsp;
+<div style="font-size:14px;font-weight:bold;letter-spacing:1px;text-transform:uppercase;">&nbsp; &nbsp; &nbsp; ICT – Virtualisering och operativsystem&nbsp; &nbsp;</div>
+&nbsp; &nbsp;
+
+<h1 style="margin:6px 0 5px 0;font-size:30px;">&nbsp; &nbsp; &nbsp; 🪟 Installera Windows 11 i en virtuell maskin&nbsp; &nbsp;</h1>
+&nbsp; &nbsp;
+
+<p style="margin:0;font-size:16px;">&nbsp; &nbsp; &nbsp; Installera Windows 11 i VirtualBox och konfigurera systemets grundinställningar.&nbsp; &nbsp;</p>
+</div>
+&nbsp; &nbsp;
+
+<div style="background-color:#ffffff;border:1px solid #e5e7eb;border-top:none;padding:28px;border-radius:0 0 16px 16px;">&nbsp; &nbsp; &nbsp; &nbsp;
+<div style="background-color:#eff6ff;border-left:5px solid #2563eb;border-radius:10px;padding:18px 20px;margin-bottom:28px;">&nbsp; &nbsp; &nbsp;
+<h2 style="margin:0 0 7px 0;color:#1d4ed8;font-size:21px;">&nbsp; &nbsp; &nbsp; &nbsp; 🎯 Mål&nbsp; &nbsp; &nbsp;</h2>
+&nbsp; &nbsp; &nbsp;
+
+<p style="margin:0;">&nbsp; &nbsp; &nbsp; &nbsp; Lära sig installera <strong>Windows 11 i en virtuell maskin</strong> och konfigurera grundinställningar.&nbsp; &nbsp; &nbsp;</p>
+&nbsp; &nbsp;</div>
+&nbsp; &nbsp; &nbsp; &nbsp;
+
+<h2 style="font-size:23px;color:#111827;margin-bottom:18px;">&nbsp; &nbsp; &nbsp; 📋 Instruktioner&nbsp; &nbsp;</h2>
+&nbsp; &nbsp; &nbsp; &nbsp;
+
+<div style="background-color:#f9fafb;border-left:5px solid #2563eb;border-radius:10px;padding:18px 20px;margin-bottom:16px;">&nbsp; &nbsp; &nbsp;
+<h3 style="margin:0 0 8px 0;color:#1d4ed8;">&nbsp; &nbsp; &nbsp; &nbsp; 1. Installera VirtualBox&nbsp; &nbsp; &nbsp;</h3>
+&nbsp; &nbsp; &nbsp;
+
+<p style="margin:0;">&nbsp; &nbsp; &nbsp; &nbsp; Installera <strong>VirtualBox</strong> på datorn om programmet inte redan är installerat.&nbsp; &nbsp; &nbsp;</p>
+&nbsp; &nbsp;</div>
+&nbsp; &nbsp; &nbsp; &nbsp;
+
+<div style="background-color:#f9fafb;border-left:5px solid #2563eb;border-radius:10px;padding:18px 20px;margin-bottom:16px;">&nbsp; &nbsp; &nbsp;
+<h3 style="margin:0 0 10px 0;color:#1d4ed8;">&nbsp; &nbsp; &nbsp; &nbsp; 2. Skapa en ny virtuell maskin&nbsp; &nbsp; &nbsp;</h3>
+&nbsp; &nbsp; &nbsp;
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; Skapa en ny virtuell maskin i VirtualBox med följande inställningar:&nbsp; &nbsp; &nbsp;</p>
+&nbsp; &nbsp; &nbsp;
+
+<div style="background-color:#ffffff;border:1px solid #dbeafe;border-radius:8px;padding:15px 18px;">&nbsp; &nbsp; &nbsp; &nbsp;
+<div style="margin-bottom:7px;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 🖥️ <strong>Namn:</strong> Windows 11&nbsp; &nbsp; &nbsp; &nbsp;</div>
+&nbsp; &nbsp; &nbsp; &nbsp;
+
+<div style="margin-bottom:7px;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 💾 <strong>RAM:</strong> minst 4 GB&nbsp; &nbsp; &nbsp; &nbsp;</div>
+&nbsp; &nbsp; &nbsp; &nbsp;
+
+<div style="margin-bottom:7px;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ⚙️ <strong>CPU:</strong> minst 2 kärnor&nbsp; &nbsp; &nbsp; &nbsp;</div>
+&nbsp; &nbsp; &nbsp; &nbsp;
+
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 💿 <strong>Hårddisk:</strong> minst 64 GB (dynamiskt tilldelad)&nbsp; &nbsp; &nbsp; &nbsp;</div>
+&nbsp; &nbsp; &nbsp;</div>
+&nbsp; &nbsp;</div>
+&nbsp; &nbsp; &nbsp; &nbsp;
+
+<div style="background-color:#f9fafb;border-left:5px solid #2563eb;border-radius:10px;padding:18px 20px;margin-bottom:16px;">&nbsp; &nbsp; &nbsp;
+<h3 style="margin:0 0 8px 0;color:#1d4ed8;">&nbsp; &nbsp; &nbsp; &nbsp; 3. Lägg till Windows 11 ISO-filen&nbsp; &nbsp; &nbsp;</h3>
+&nbsp; &nbsp; &nbsp;
+
+<p style="margin:0;">&nbsp; &nbsp; &nbsp; &nbsp; Starta den virtuella maskinen och välj en <strong>Windows 11 ISO-fil</strong> som installationsmedia.&nbsp; &nbsp; &nbsp;</p>
+&nbsp; &nbsp;</div>
+&nbsp; &nbsp; &nbsp; &nbsp;
+
+<div style="background-color:#f9fafb;border-left:5px solid #2563eb;border-radius:10px;padding:18px 20px;margin-bottom:16px;">&nbsp; &nbsp; &nbsp;
+<h3 style="margin:0 0 10px 0;color:#1d4ed8;">&nbsp; &nbsp; &nbsp; &nbsp; 4. Installera Windows 11&nbsp; &nbsp; &nbsp;</h3>
+&nbsp; &nbsp; &nbsp;
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; Följ installationsguiden för Windows 11.&nbsp; &nbsp; &nbsp;</p>
+&nbsp; &nbsp; &nbsp;
+
+<ul style="margin-bottom:0;padding-left:22px;">
+	<li>&nbsp; &nbsp; &nbsp; &nbsp;</li>
+	<li>Välj språk, tangentbord och region.</li>
+	<li>&nbsp; &nbsp; &nbsp; &nbsp;</li>
+	<li>Ange produktnyckel eller hoppa över detta steg.</li>
+	<li>&nbsp; &nbsp; &nbsp; &nbsp;</li>
+	<li>Välj <strong>Custom installation</strong>.</li>
+	<li>&nbsp; &nbsp; &nbsp; &nbsp;</li>
+	<li>Välj den virtuella disken som installationsplats.</li>
+	<li>&nbsp; &nbsp; &nbsp; &nbsp;</li>
+	<li>Starta installationen och vänta tills den är färdig.</li>
+	<li>&nbsp; &nbsp; &nbsp;</li>
+</ul>
+&nbsp; &nbsp;</div>
+&nbsp; &nbsp; &nbsp; &nbsp;
+
+<div style="background-color:#f9fafb;border-left:5px solid #2563eb;border-radius:10px;padding:18px 20px;margin-bottom:16px;">&nbsp; &nbsp; &nbsp;
+<h3 style="margin:0 0 8px 0;color:#1d4ed8;">&nbsp; &nbsp; &nbsp; &nbsp; 5. Konfigurera Windows&nbsp; &nbsp; &nbsp;</h3>
+&nbsp; &nbsp; &nbsp;
+
+<p style="margin:0;">&nbsp; &nbsp; &nbsp; &nbsp; När installationen är klar ska ett <strong>användarkonto</strong> skapas och Windows grundinställningar konfigureras.&nbsp; &nbsp; &nbsp;</p>
+&nbsp; &nbsp;</div>
+&nbsp; &nbsp; &nbsp; &nbsp;
+
+<div style="background-color:#f9fafb;border-left:5px solid #2563eb;border-radius:10px;padding:18px 20px;margin-bottom:28px;">&nbsp; &nbsp; &nbsp;
+<h3 style="margin:0 0 8px 0;color:#1d4ed8;">&nbsp; &nbsp; &nbsp; &nbsp; 6. Installera Guest Additions&nbsp; &nbsp; &nbsp;</h3>
+&nbsp; &nbsp; &nbsp;
+
+<p style="margin:0;">&nbsp; &nbsp; &nbsp; &nbsp; Installera <strong>Guest Additions</strong> för bättre grafik, integration och funktionalitet mellan värddatorn och den virtuella maskinen.&nbsp; &nbsp; &nbsp;</p>
+&nbsp; &nbsp;</div>
+&nbsp; &nbsp; &nbsp; &nbsp;
+
+<div style="background-color:#f5f3ff;border-left:5px solid #7c3aed;border-radius:10px;padding:20px;margin-bottom:28px;">&nbsp; &nbsp; &nbsp;
+<h2 style="margin:0 0 12px 0;color:#6d28d9;font-size:21px;">&nbsp; &nbsp; &nbsp; &nbsp; 📸 Dokumentation&nbsp; &nbsp; &nbsp;</h2>
+&nbsp; &nbsp; &nbsp;
+
+<p style="margin-top:0;">&nbsp; &nbsp; &nbsp; &nbsp; Dokumentera installationen och konfigureringen av den virtuella maskinen.&nbsp; &nbsp; &nbsp;</p>
+&nbsp; &nbsp; &nbsp;
+
+<ul style="margin-bottom:0;padding-left:22px;">
+	<li>&nbsp; &nbsp; &nbsp; &nbsp;</li>
+	<li>Ta <strong>skärmbilder</strong> från de viktigaste stegen.</li>
+	<li>&nbsp; &nbsp; &nbsp; &nbsp;</li>
+	<li>Skriv en <strong>kort beskrivning</strong> till varje bild.</li>
+	<li>&nbsp; &nbsp; &nbsp; &nbsp;</li>
+	<li>Placera bilderna i kronologisk ordning.</li>
+	<li>&nbsp; &nbsp; &nbsp; &nbsp;</li>
+	<li>Visa att Windows 11 har installerats och fungerar.</li>
+	<li>&nbsp; &nbsp; &nbsp;</li>
+</ul>
+&nbsp; &nbsp;</div>
+&nbsp; &nbsp; &nbsp; &nbsp;
+
+<div style="background-color:#f9fafb;border:1px solid #e5e7eb;border-radius:12px;padding:20px;margin-bottom:28px;">&nbsp; &nbsp; &nbsp;
+<h2 style="margin:0 0 12px 0;color:#111827;font-size:21px;">&nbsp; &nbsp; &nbsp; &nbsp; ✅ Kontrollera innan du lämnar in&nbsp; &nbsp; &nbsp;</h2>
+&nbsp; &nbsp; &nbsp;
+
+<div style="margin-bottom:8px;">&nbsp; &nbsp; &nbsp; &nbsp; ✓ Windows 11 är installerat i VirtualBox.&nbsp; &nbsp; &nbsp;</div>
+&nbsp; &nbsp; &nbsp;
+
+<div style="margin-bottom:8px;">&nbsp; &nbsp; &nbsp; &nbsp; ✓ Den virtuella maskinen har minst 4 GB RAM och 2 CPU-kärnor.&nbsp; &nbsp; &nbsp;</div>
+&nbsp; &nbsp; &nbsp;
+
+<div style="margin-bottom:8px;">&nbsp; &nbsp; &nbsp; &nbsp; ✓ Den virtuella hårddisken är minst 64 GB.&nbsp; &nbsp; &nbsp;</div>
+&nbsp; &nbsp; &nbsp;
+
+<div style="margin-bottom:8px;">&nbsp; &nbsp; &nbsp; &nbsp; ✓ Ett användarkonto har skapats.&nbsp; &nbsp; &nbsp;</div>
+&nbsp; &nbsp; &nbsp;
+
+<div style="margin-bottom:8px;">&nbsp; &nbsp; &nbsp; &nbsp; ✓ Guest Additions har installerats.&nbsp; &nbsp; &nbsp;</div>
+&nbsp; &nbsp; &nbsp;
+
+<div style="margin-bottom:8px;">&nbsp; &nbsp; &nbsp; &nbsp; ✓ Skärmbilder från de viktigaste stegen finns med.&nbsp; &nbsp; &nbsp;</div>
+&nbsp; &nbsp; &nbsp;
+
+<div>&nbsp; &nbsp; &nbsp; &nbsp; ✓ Varje skärmbild har en kort beskrivning.&nbsp; &nbsp; &nbsp;</div>
+&nbsp; &nbsp;</div>
+&nbsp; &nbsp; &nbsp; &nbsp;
+
+<div style="background-color:#ecfdf5;border-left:5px solid #10b981;border-radius:10px;padding:19px 20px;">&nbsp; &nbsp; &nbsp;
+<h2 style="margin:0 0 8px 0;color:#047857;font-size:21px;">&nbsp; &nbsp; &nbsp; &nbsp; 📤 Inlämning&nbsp; &nbsp; &nbsp;</h2>
+&nbsp; &nbsp; &nbsp;
+
+<p style="margin:0;">&nbsp; &nbsp; &nbsp; &nbsp; Spara er dokumentation och lämna in den i <strong>PDF- eller Word-format</strong>.&nbsp; &nbsp; &nbsp;</p>
+&nbsp; &nbsp;</div>
+</div>
+</div>

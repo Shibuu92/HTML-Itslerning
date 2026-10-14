@@ -1,0 +1,152 @@
+<div style="max-width:900px;margin:20px auto;font-family:Arial, Helvetica, sans-serif;color:#1f2937;line-height:1.6;">
+<div style="background:linear-gradient(135deg, #1e3a5f, #2563eb);color:white;padding:28px 30px;border-radius:16px 16px 0 0;">
+<div style="font-size:14px;font-weight:bold;letter-spacing:1px;text-transform:uppercase;">ICT – USB och återställning</div>
+
+<h1 style="margin:6px 0 5px 0;font-size:30px;">🛠️ Skapa ett Windows Recovery USB</h1>
+
+<p style="margin:0;font-size:16px;">Skapa en återställningsenhet och undersök Windows återställningsmiljö.</p>
+</div>
+
+<div style="background-color:#ffffff;border:1px solid #e5e7eb;border-top:none;padding:28px;border-radius:0 0 16px 16px;">
+<div style="background-color:#eff6ff;border-left:5px solid #2563eb;border-radius:10px;padding:18px 20px;margin-bottom:28px;">
+<h2 style="margin:0 0 8px 0;color:#1d4ed8;font-size:21px;">🎯 Syfte</h2>
+
+<p style="margin:0 0 10px 0;">Ett <strong>Recovery USB (återställningsenhet)</strong> används för att felsöka och återställa en Windows-dator som inte längre fungerar eller startar korrekt.</p>
+
+<p style="margin:0;">I den här uppgiften ska du skapa ett Recovery USB och undersöka vilka möjligheter Windows återställningsmiljö erbjuder.</p>
+</div>
+
+<div style="background-color:#fef2f2;border:2px solid #ef4444;border-radius:12px;padding:22px;margin-bottom:28px;">
+<h2 style="margin:0 0 10px 0;color:#b91c1c;font-size:22px;">⚠️ VIKTIGT – USB-minnet kommer att raderas</h2>
+
+<p style="margin:0;">När återställningsenheten skapas kommer innehållet på USB-minnet att raderas. Kontrollera därför att USB-minnet <strong>inte innehåller några viktiga filer</strong> innan du börjar.</p>
+
+<p style="margin:10px 0 0 0;">Kontrollera också noggrant att du väljer <strong>rätt USB-enhet</strong> under processen.</p>
+</div>
+
+<div style="border:1px solid #e5e7eb;border-radius:12px;padding:20px;margin-bottom:30px;">
+<h2 style="margin:0 0 13px 0;color:#111827;font-size:21px;">🧰 Du behöver</h2>
+
+<div style="margin-bottom:9px;">🪟 <strong>En Windows-dator</strong></div>
+
+<div style="margin-bottom:9px;">💾 <strong>Ett USB-minne på minst 16 GB</strong></div>
+
+<div>🔑 <strong>Administratörsrättigheter</strong></div>
+</div>
+
+<div style="background-color:#eef2ff;border-radius:12px;padding:20px 22px;margin-bottom:16px;">
+<div style="font-size:13px;color:#4f46e5;font-weight:bold;text-transform:uppercase;">Del 1</div>
+
+<h2 style="margin:3px 0 5px 0;color:#4338ca;font-size:24px;">💾 Skapa återställningsenheten</h2>
+</div>
+
+<div style="border:1px solid #e5e7eb;border-radius:10px;padding:20px;margin-bottom:30px;">
+<ol style="margin:0;padding-left:24px;">
+	<li style="margin-bottom:10px;">Anslut USB-minnet till datorn.</li>
+	<li style="margin-bottom:10px;">Öppna <strong>Start-menyn</strong>.</li>
+	<li style="margin-bottom:10px;">Sök efter <strong>Återställningsenhet</strong> eller <strong>Recovery Drive</strong>.</li>
+	<li style="margin-bottom:10px;">Starta <strong>Skapa en återställningsenhet</strong>.</li>
+	<li style="margin-bottom:10px;">Godkänn administratörsrättigheter om Windows frågar efter dem.</li>
+	<li style="margin-bottom:10px;">Om alternativet <strong>Säkerhetskopiera systemfiler till återställningsenheten</strong> visas, välj det.</li>
+	<li style="margin-bottom:10px;">Klicka på <strong>Nästa</strong>.</li>
+	<li style="margin-bottom:10px;">Välj rätt USB-minne.</li>
+</ol>
+
+<div style="background-color:#fef2f2;border-left:5px solid #dc2626;border-radius:8px;padding:14px 17px;margin:18px 0;"><strong style="color:#b91c1c;">⚠️ Kontrollpunkt</strong><br />
+Kontrollera noggrant att du har valt <strong>rätt USB-minne</strong>. Innehållet på den valda enheten kommer att raderas.</div>
+
+<ol start="9" style="margin:0;padding-left:24px;">
+	<li style="margin-bottom:10px;">Klicka på <strong>Nästa → Skapa</strong>.</li>
+	<li>Vänta tills Windows har skapat återställningsenheten.</li>
+</ol>
+
+<div style="background-color:#eff6ff;border-left:5px solid #2563eb;border-radius:8px;padding:14px 17px;margin-top:18px;">📸 <strong>Dokumentera:</strong> Ta minst en skärmbild under skapandet av återställningsenheten.</div>
+</div>
+
+<div style="background-color:#ecfeff;border-radius:12px;padding:20px 22px;margin-bottom:16px;">
+<div style="font-size:13px;color:#0891b2;font-weight:bold;text-transform:uppercase;">Del 2</div>
+
+<h2 style="margin:3px 0 5px 0;color:#0e7490;font-size:24px;">🔍 Kontrollera USB-minnet</h2>
+</div>
+
+<div style="border:1px solid #e5e7eb;border-radius:10px;padding:20px;margin-bottom:28px;">
+<p style="margin-top:0;">När Windows har skapat återställningsenheten ska du undersöka resultatet.</p>
+
+<ol style="padding-left:24px;">
+	<li style="margin-bottom:10px;">Öppna <strong>Utforskaren</strong>.</li>
+	<li style="margin-bottom:10px;">Kontrollera att USB-minnet känns igen av Windows.</li>
+	<li style="margin-bottom:10px;">Öppna USB-minnet och undersök vilka <strong>mappar och filer</strong> som har skapats.</li>
+	<li>Ta en <strong>skärmbild</strong> som visar innehållet på det färdiga USB-minnet.</li>
+</ol>
+
+<div style="background-color:#f5f3ff;border-left:5px solid #7c3aed;border-radius:8px;padding:15px 17px;margin-top:18px;"><strong style="color:#6d28d9;">💡 Extra – om läraren tillåter</strong><br />
+Starta datorn från USB-minnet och undersök vilka alternativ som finns i <strong>Windows återställningsmiljö</strong>.</div>
+
+<div style="background-color:#fef2f2;border-left:5px solid #dc2626;border-radius:8px;padding:15px 17px;margin-top:12px;"><strong style="color:#b91c1c;">⛔ Viktigt</strong><br />
+Undersök endast menyerna och alternativen. <strong>Starta inte en faktisk återställning eller återställning av datorn.</strong></div>
+</div>
+
+<div style="background-color:#f9fafb;border:1px solid #e5e7eb;border-radius:12px;padding:20px;margin-bottom:28px;">
+<h2 style="margin:0 0 13px 0;color:#111827;font-size:21px;">🔄 Processen</h2>
+
+<div style="text-align:center;font-size:16px;font-weight:bold;line-height:2;">💾 Anslut USB &nbsp;→&nbsp; 🛠️ Skapa Recovery Drive &nbsp;→&nbsp; ⏳ Vänta &nbsp;→&nbsp; 🔍 Kontrollera &nbsp;→&nbsp; ✅ Färdigt</div>
+</div>
+
+<div style="background-color:#f5f3ff;border-left:5px solid #7c3aed;border-radius:10px;padding:20px;margin-bottom:28px;">
+<h2 style="margin:0 0 12px 0;color:#6d28d9;font-size:21px;">❓ Frågor</h2>
+
+<p style="margin-top:0;">Svara på följande frågor med <strong>egna ord</strong>.</p>
+
+<ol style="margin-bottom:0;padding-left:24px;">
+	<li style="margin-bottom:10px;">Vad är ett <strong>Recovery USB</strong>?</li>
+	<li style="margin-bottom:10px;">När kan ett Recovery USB behövas?</li>
+	<li style="margin-bottom:10px;">Vad är skillnaden mellan ett <strong>Windows Recovery USB</strong> och ett <strong>Windows installations-USB</strong>?</li>
+	<li style="margin-bottom:10px;">Vilka felsökningsverktyg finns i Windows återställningsmiljö?</li>
+	<li style="margin-bottom:10px;">Kan ett Recovery USB hjälpa om Windows inte längre startar? Förklara.</li>
+	<li>Varför bör en IT-tekniker känna till återställningsverktyg?</li>
+</ol>
+</div>
+
+<div style="background-color:#ecfeff;border-left:5px solid #0891b2;border-radius:10px;padding:20px;margin-bottom:28px;">
+<h2 style="margin:0 0 12px 0;color:#0e7490;font-size:21px;">📸 Dokumentation</h2>
+
+<p style="margin-top:0;">Dokumentera arbetsprocessen så att det tydligt går att följa vad du har gjort.</p>
+
+<div style="margin-bottom:8px;">✓ Skärmbild från skapandet av återställningsenheten.</div>
+
+<div style="margin-bottom:8px;">✓ Skärmbild av det färdiga USB-minnet.</div>
+
+<div style="margin-bottom:8px;">✓ Svar på alla frågor.</div>
+
+<div>✓ En kort beskrivning av hur processen gick.</div>
+</div>
+
+<div style="background-color:#fff7ed;border-left:5px solid #f59e0b;border-radius:10px;padding:20px;margin-bottom:28px;">
+<h2 style="margin:0 0 10px 0;color:#b45309;font-size:21px;">💭 Kort reflektion</h2>
+
+<p style="margin:0;">Beskriv kort hur arbetet gick. Uppstod några problem? Vad lärde du dig av att skapa återställningsenheten och när tror du att den skulle kunna vara användbar i praktiken?</p>
+</div>
+
+<div style="background-color:#f9fafb;border:1px solid #e5e7eb;border-radius:12px;padding:20px;margin-bottom:28px;">
+<h2 style="margin:0 0 13px 0;color:#111827;font-size:21px;">✅ Kontrollera innan du lämnar in</h2>
+
+<div style="margin-bottom:8px;">✓ Ett Windows Recovery USB har skapats.</div>
+
+<div style="margin-bottom:8px;">✓ USB-minnets innehåll har kontrollerats.</div>
+
+<div style="margin-bottom:8px;">✓ Skärmbild från skapandet finns med.</div>
+
+<div style="margin-bottom:8px;">✓ Skärmbild av det färdiga USB-minnet finns med.</div>
+
+<div style="margin-bottom:8px;">✓ Alla frågor är besvarade med egna ord.</div>
+
+<div>✓ En kort beskrivning/reflektion av arbetsprocessen finns med.</div>
+</div>
+
+<div style="background-color:#ecfdf5;border-left:5px solid #10b981;border-radius:10px;padding:19px 20px;">
+<h2 style="margin:0 0 8px 0;color:#047857;font-size:21px;">📤 Inlämning</h2>
+
+<p style="margin:0;">Spara er dokumentation och lämna in den i <strong>PDF- eller Word-format</strong>.</p>
+</div>
+</div>
+</div>

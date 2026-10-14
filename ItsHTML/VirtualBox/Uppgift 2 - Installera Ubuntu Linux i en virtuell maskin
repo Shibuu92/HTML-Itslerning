@@ -1,0 +1,120 @@
+<div style="max-width:900px;margin:20px auto;font-family:Arial, Helvetica, sans-serif;color:#1f2937;line-height:1.6;">
+<div style="background:linear-gradient(135deg, #6b1f1f, #d35400);color:white;padding:28px 30px;border-radius:16px 16px 0 0;">
+<div style="font-size:14px;font-weight:bold;letter-spacing:1px;text-transform:uppercase;">ICT – Virtualisering och Linux</div>
+
+<h1 style="margin:6px 0 5px 0;font-size:30px;">🐧 Installera Ubuntu Linux i en virtuell maskin</h1>
+
+<p style="margin:0;font-size:16px;">Installera Linux i en virtuell miljö och jämför processen med Windows-installation.</p>
+</div>
+
+<div style="background-color:#ffffff;border:1px solid #e5e7eb;border-top:none;padding:28px;border-radius:0 0 16px 16px;">
+<div style="background-color:#fff7ed;border-left:5px solid #d35400;border-radius:10px;padding:18px 20px;margin-bottom:25px;">
+<h2 style="margin:0 0 7px 0;color:#b34700;font-size:21px;">🎯 Mål</h2>
+
+<p style="margin:0;">Lära sig installera <strong>Linux i en virtuell miljö</strong> och förstå skillnaden mot en Windows-installation.</p>
+</div>
+
+<h2 style="font-size:23px;color:#111827;margin-bottom:18px;">📋 Instruktioner</h2>
+
+<div style="margin-bottom:18px;">
+<div style="background-color:#d35400;color:white;width:38px;height:38px;line-height:38px;text-align:center;border-radius:50%;font-weight:bold;flex-shrink:0;">1</div>
+
+<div style="margin-left:15px;background-color:#f9fafb;border-radius:10px;padding:15px 18px;width:100%;">
+<h3 style="margin:0 0 8px 0;color:#b34700;">Skapa en ny virtuell maskin</h3>
+
+<ul style="margin:0;padding-left:20px;">
+	<li><strong>Namn:</strong> Ubuntu Linux</li>
+	<li><strong>RAM:</strong> minst 2 GB</li>
+	<li><strong>CPU:</strong> minst 2 kärnor</li>
+	<li><strong>Hårddisk:</strong> minst 30 GB</li>
+</ul>
+</div>
+</div>
+
+<div style="margin-bottom:18px;">
+<div style="background-color:#d35400;color:white;width:38px;height:38px;line-height:38px;text-align:center;border-radius:50%;font-weight:bold;flex-shrink:0;">2</div>
+
+<div style="margin-left:15px;background-color:#f9fafb;border-radius:10px;padding:15px 18px;width:100%;">
+<h3 style="margin:0 0 8px 0;color:#b34700;">Starta maskinen</h3>
+
+<p style="margin:0;">Starta den virtuella maskinen och välj en <strong>Ubuntu ISO-fil</strong> som installationsmedia.</p>
+</div>
+</div>
+
+<div style="margin-bottom:18px;">
+<div style="background-color:#d35400;color:white;width:38px;height:38px;line-height:38px;text-align:center;border-radius:50%;font-weight:bold;flex-shrink:0;">3</div>
+
+<div style="margin-left:15px;background-color:#f9fafb;border-radius:10px;padding:15px 18px;width:100%;">
+<h3 style="margin:0 0 8px 0;color:#b34700;">Installera Ubuntu</h3>
+
+<ul style="margin:0;padding-left:20px;">
+	<li>Välj språk.</li>
+	<li>Välj tangentbordslayout.</li>
+	<li>Installera systemet med standardinställningar.</li>
+	<li>Skapa användarnamn och lösenord.</li>
+</ul>
+</div>
+</div>
+
+<div style="margin-bottom:28px;">
+<div style="background-color:#d35400;color:white;width:38px;height:38px;line-height:38px;text-align:center;border-radius:50%;font-weight:bold;flex-shrink:0;">4</div>
+
+<div style="margin-left:15px;background-color:#f9fafb;border-radius:10px;padding:15px 18px;width:100%;">
+<h3 style="margin:0 0 8px 0;color:#b34700;">Efter installationen</h3>
+
+<ul style="margin:0;padding-left:20px;">
+	<li>Logga in i Ubuntu.</li>
+	<li>Kontrollera att systemet fungerar.</li>
+	<li>Installera <strong>Guest Additions</strong>.</li>
+</ul>
+</div>
+</div>
+
+<div style="background-color:#f5f3ff;border-left:5px solid #7c3aed;border-radius:10px;padding:20px;margin-bottom:25px;">
+<h2 style="margin:0 0 12px 0;color:#6d28d9;font-size:21px;">📸 Dokumentation</h2>
+
+<p style="margin-top:0;">Dokumentera installationen med <strong>skärmbilder</strong>.</p>
+
+<ul style="margin-bottom:0;padding-left:20px;">
+	<li>Ta skärmbilder under viktiga delar av installationen.</li>
+	<li>Visa att Ubuntu har installerats och att inloggningen fungerar.</li>
+	<li>Visa installation eller resultat av Guest Additions.</li>
+</ul>
+</div>
+
+<div style="background-color:#eff6ff;border-left:5px solid #2563eb;border-radius:10px;padding:20px;margin-bottom:28px;">
+<h2 style="margin:0 0 10px 0;color:#1d4ed8;font-size:21px;">🔍 Jämför med Windows</h2>
+
+<p style="margin:0 0 10px 0;">Skriv en kort text där du jämför Ubuntu-installationen med Windows-installationen.</p>
+
+<p style="margin-bottom:8px;">Du kan till exempel fundera på:</p>
+
+<ul style="margin-bottom:0;padding-left:20px;">
+	<li>Vilka steg var lika?</li>
+	<li>Vilka steg var annorlunda?</li>
+	<li>Vilken installation kändes enklare?</li>
+	<li>Fanns det inställningar som endast fanns i Ubuntu eller Windows?</li>
+</ul>
+</div>
+
+<div style="background-color:#f9fafb;border:1px solid #e5e7eb;border-radius:12px;padding:20px;margin-bottom:28px;">
+<h2 style="margin:0 0 12px 0;color:#111827;font-size:21px;">✅ Kontrollera innan du lämnar in</h2>
+
+<div style="margin-bottom:8px;">✓ Ubuntu är installerat i en virtuell maskin.</div>
+
+<div style="margin-bottom:8px;">✓ Den virtuella maskinen har minst 2 GB RAM och 2 CPU-kärnor.</div>
+
+<div style="margin-bottom:8px;">✓ Skärmbilder från installationen finns med.</div>
+
+<div style="margin-bottom:8px;">✓ Guest Additions har installerats.</div>
+
+<div>✓ Ubuntu- och Windows-installationen har jämförts i text.</div>
+</div>
+
+<div style="background-color:#ecfdf5;border:1px solid #a7f3d0;border-radius:12px;padding:20px;">
+<h2 style="margin:0 0 8px 0;color:#047857;font-size:22px;">📤 Inlämning</h2>
+
+<p style="margin:0;">Lämna in dokumentationen med skärmbilder och jämförelsen mellan <strong>Ubuntu och Windows</strong> i itslearning.</p>
+</div>
+</div>
+</div>

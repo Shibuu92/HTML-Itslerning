@@ -1,0 +1,330 @@
+<div style="max-width:900px;margin:20px auto;font-family:Arial, Helvetica, sans-serif;color:#1f2937;line-height:1.6;">
+<div style="background:linear-gradient(135deg,#0f766e,#14b8a6);padding:28px 30px;border-radius:16px 16px 0 0;">
+<div style="font-size:14px;font-weight:bold;letter-spacing:1px;text-transform:uppercase;">ICT – DATORNS GRUNDER – UPPGIFT 6</div>
+
+<div style="margin:6px 0 5px 0;font-size:30px;font-weight:bold;line-height:1.3;">⚙️ Identifiera BIOS/UEFI-inställningar</div>
+
+<div style="font-size:16px;">Undersök datorns hårdvaruinformation, startinställningar och säkerhetsfunktioner.</div>
+</div>
+
+<div style="background-color:#ffffff;border:1px solid #e5e7eb;border-top:none;padding:28px;border-radius:0 0 16px 16px;">
+<div style="background-color:#ecfdf5;border-left:5px solid #14b8a6;border-radius:10px;padding:18px 20px;margin-bottom:25px;">
+<h2 style="margin:0 0 8px 0;color:#0f766e;font-size:21px;">🎯 Syfte och mål</h2>
+
+<p style="margin:0 0 10px 0;">BIOS/UEFI är datorns inbyggda firmware som körs innan operativsystemet startar. Den hjälper till att identifiera och initiera hårdvara samt hantera hur datorn startar.</p>
+
+<p style="margin:0;">Målet är att du ska lära dig öppna BIOS/UEFI, hitta information om datorns hårdvara och förstå viktiga start- och säkerhetsinställningar som används av IT-tekniker.</p>
+</div>
+
+<div style="background-color:#eff6ff;border-left:5px solid #3b82f6;border-radius:10px;padding:18px 20px;margin-bottom:25px;">
+<h2 style="margin:0 0 10px 0;color:#1d4ed8;font-size:21px;">📝 Dokumentation</h2>
+
+<p style="margin:0 0 10px 0;">Skapa ett <strong>Word-dokument</strong> där du dokumenterar ditt arbete.</p>
+
+<ul style="margin:0;padding-left:22px;">
+	<li>Använd rubrikerna <strong>Del 1–7</strong>.</li>
+	<li>Anteckna vilka inställningar och uppgifter du hittar.</li>
+	<li>Ta fotografier eller skärmbilder där det är möjligt och tillåtet.</li>
+	<li>Skriv korta förklaringar till bilderna.</li>
+	<li>Besvara de tio teorifrågorna i slutet.</li>
+	<li>Genomför extrauppgiften om du hinner.</li>
+</ul>
+</div>
+
+<div style="background-color:#fff7ed;border-left:5px solid #f59e0b;border-radius:10px;padding:18px 20px;margin-bottom:28px;">
+<h2 style="margin:0 0 8px 0;color:#b45309;font-size:21px;">⚠️ Viktigt – Läs innan du börjar!</h2>
+
+<ul style="margin:0;padding-left:22px;">
+	<li>Använd endast en dator som läraren har godkänt för uppgiften.</li>
+	<li><strong>Ändra inga BIOS/UEFI-inställningar</strong> utan lärarens tillstånd.</li>
+	<li>Ändra inte Secure Boot, TPM, startläge eller lagringsinställningar.</li>
+	<li>Välj inte alternativ som återställer BIOS/UEFI till fabriksinställningarna.</li>
+	<li>Starta inte en installation eller formatering från USB.</li>
+	<li>Avsluta BIOS/UEFI med <strong>Exit Without Saving</strong> eller motsvarande.</li>
+</ul>
+
+<p style="margin:12px 0 0 0;"><strong>Observera:</strong> Felaktiga ändringar kan göra att operativsystemet inte startar eller att återställningsnyckeln för BitLocker efterfrågas.</p>
+</div>
+
+<h2 style="font-size:23px;color:#111827;margin-bottom:15px;">🔑 Del 1 – Öppna BIOS/UEFI</h2>
+
+<p>Börja med att ta reda på hur du öppnar BIOS/UEFI på den dator som du använder.</p>
+
+<div style="background-color:#f0fdfa;border-left:5px solid #14b8a6;border-radius:10px;padding:18px 20px;margin-bottom:25px;">
+<ol style="margin:0;padding-left:22px;">
+	<li style="margin-bottom:10px;">Kontrollera datorns tillverkare och modell.</li>
+	<li style="margin-bottom:10px;">Ta reda på vilken tangent som används för att öppna BIOS/UEFI.</li>
+	<li style="margin-bottom:10px;">Starta om datorn.</li>
+	<li style="margin-bottom:10px;">Tryck på rätt tangent under uppstarten.</li>
+	<li>Kontrollera att du har kommit in i BIOS/UEFI-inställningarna.</li>
+</ol>
+
+<p style="margin:15px 0 8px 0;"><strong>Vanliga tangenter:</strong></p>
+
+<div style="background-color:#ffffff;border:1px solid #ccfbf1;border-radius:8px;padding:13px 15px;text-align:center;font-size:18px;font-weight:bold;color:#0f766e;">F2 &nbsp; | &nbsp; F10 &nbsp; | &nbsp; F12 &nbsp; | &nbsp; Delete &nbsp; | &nbsp; Esc</div>
+
+<p style="margin:12px 0 0 0;font-size:14px;color:#475569;">Tangenten varierar mellan tillverkare och modeller. På vissa datorer öppnar en av tangenterna en separat Boot Menu i stället för BIOS/UEFI-inställningarna.</p>
+</div>
+
+<div style="background-color:#f9fafb;border:1px solid #e5e7eb;border-radius:12px;padding:18px 20px;margin-bottom:28px;">
+<h3 style="margin:0 0 10px 0;color:#0f766e;font-size:18px;">📝 Dokumentera</h3>
+
+<ul style="margin:0;padding-left:22px;">
+	<li>Vilken datortillverkare och modell använder du?</li>
+	<li>Vilken tangent använde du för att öppna BIOS/UEFI?</li>
+	<li>Lyckades du öppna BIOS/UEFI på första försöket?</li>
+</ul>
+</div>
+
+<h2 style="font-size:23px;color:#111827;margin-bottom:15px;">🖥️ Del 2 – Hitta information om datorn</h2>
+
+<p>Leta efter en meny som exempelvis heter <strong>Information</strong>, <strong>Main</strong>, <strong>System Information</strong> eller liknande.</p>
+
+<p>Försök hitta följande information:</p>
+
+<div style="background-color:#f9fafb;border:1px solid #e5e7eb;border-radius:12px;padding:20px;margin-bottom:25px;">
+<table style="width:100%;border-collapse:collapse;font-size:15px;">
+	<thead>
+		<tr style="background-color:#ccfbf1;">
+			<th style="border:1px solid #d1d5db;padding:11px;text-align:left;width:48%;">Information</th>
+			<th style="border:1px solid #d1d5db;padding:11px;text-align:left;">Vad ska du anteckna?</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td style="border:1px solid #e5e7eb;padding:10px;">Datormodell</td>
+			<td style="border:1px solid #e5e7eb;padding:10px;">Tillverkare och modell</td>
+		</tr>
+		<tr>
+			<td style="border:1px solid #e5e7eb;padding:10px;">Processor (CPU)</td>
+			<td style="border:1px solid #e5e7eb;padding:10px;">Processorns modell</td>
+		</tr>
+		<tr>
+			<td style="border:1px solid #e5e7eb;padding:10px;">RAM</td>
+			<td style="border:1px solid #e5e7eb;padding:10px;">Mängden arbetsminne</td>
+		</tr>
+		<tr>
+			<td style="border:1px solid #e5e7eb;padding:10px;">Lagringsenheter</td>
+			<td style="border:1px solid #e5e7eb;padding:10px;">HDD/SSD som visas</td>
+		</tr>
+		<tr>
+			<td style="border:1px solid #e5e7eb;padding:10px;">BIOS/UEFI-version</td>
+			<td style="border:1px solid #e5e7eb;padding:10px;">Versionsnummer</td>
+		</tr>
+		<tr>
+			<td style="border:1px solid #e5e7eb;padding:10px;">Datum och tid</td>
+			<td style="border:1px solid #e5e7eb;padding:10px;">Aktuellt datum och klockslag</td>
+		</tr>
+	</tbody>
+</table>
+
+<p style="margin:12px 0 0 0;font-size:14px;color:#475569;">Om någon uppgift inte visas i BIOS/UEFI ska du anteckna det. Du behöver inte ändra inställningar för att hitta informationen.</p>
+</div>
+
+<h2 style="font-size:23px;color:#111827;margin-bottom:15px;">🚀 Del 3 – Boot Order och Boot Menu</h2>
+
+<p>Leta efter inställningen <strong>Boot Order</strong> eller <strong>Boot Priority</strong>. Den visar hur datorn prioriterar olika startalternativ.</p>
+
+<div style="background-color:#f0fdfa;border-left:5px solid #14b8a6;border-radius:10px;padding:18px 20px;margin-bottom:25px;">
+<h3 style="margin:0 0 10px 0;color:#0f766e;font-size:18px;">Exempel på startalternativ</h3>
+
+<div style="background-color:#ffffff;border:1px solid #ccfbf1;border-radius:8px;padding:15px 18px;">
+<div style="margin-bottom:8px;">1. Windows Boot Manager</div>
+
+<div style="margin-bottom:8px;">2. SSD / HDD</div>
+
+<div style="margin-bottom:8px;">3. USB-enhet</div>
+
+<div>4. Network / PXE</div>
+</div>
+
+<p style="margin:12px 0 0 0;font-size:14px;color:#475569;">Detta är ett exempel. Din dator kan visa andra alternativ eller en annan ordning.</p>
+</div>
+
+<div style="background-color:#f9fafb;border:1px solid #e5e7eb;border-radius:12px;padding:20px;margin-bottom:28px;">
+<h3 style="margin:0 0 10px 0;color:#0f766e;font-size:18px;">📝 Uppgifter</h3>
+
+<ol style="margin:0;padding-left:22px;">
+	<li style="margin-bottom:10px;">Hitta Boot Order / Boot Priority.</li>
+	<li style="margin-bottom:10px;">Anteckna vilka startalternativ som visas.</li>
+	<li style="margin-bottom:10px;">Anteckna vilken enhet som prioriteras först.</li>
+	<li>Undersök om datorn har en separat <strong>Boot Menu</strong> och vilken tangent som öppnar den.</li>
+</ol>
+
+<p style="margin:12px 0 0 0;"><strong>Ändra inte startordningen.</strong></p>
+</div>
+
+<h2 style="font-size:23px;color:#111827;margin-bottom:15px;">🔐 Del 4 – Secure Boot</h2>
+
+<p>Leta efter inställningen <strong>Secure Boot</strong>. Den finns ofta under menyer som Security, Boot eller Authentication.</p>
+
+<div style="background-color:#f9fafb;border:1px solid #e5e7eb;border-radius:12px;padding:20px;margin-bottom:28px;">
+<h3 style="margin:0 0 10px 0;color:#0f766e;font-size:18px;">📝 Uppgifter</h3>
+
+<ol style="margin:0;padding-left:22px;">
+	<li style="margin-bottom:10px;">Hitta Secure Boot-inställningen.</li>
+	<li style="margin-bottom:10px;">Anteckna om den är <strong>Enabled</strong> eller <strong>Disabled</strong>.</li>
+	<li>Ta reda på vad Secure Boot används till och varför funktionen är viktig för datorns säkerhet.</li>
+</ol>
+
+<p style="margin:12px 0 0 0;color:#b45309;font-weight:bold;">⚠️ Ändra inte Secure Boot-inställningen.</p>
+</div>
+
+<h2 style="font-size:23px;color:#111827;margin-bottom:15px;">🔄 Del 5 – UEFI och Legacy</h2>
+
+<p>Undersök vilket startläge datorn använder.</p>
+
+<div style="background-color:#f0fdfa;border-left:5px solid #14b8a6;border-radius:10px;padding:18px 20px;margin-bottom:25px;">
+<p style="margin:0 0 10px 0;">Leta efter något av följande:</p>
+
+<div style="background-color:#ffffff;border:1px solid #ccfbf1;border-radius:8px;padding:15px 18px;">
+<div style="margin-bottom:9px;"><strong>UEFI</strong></div>
+
+<div style="margin-bottom:9px;"><strong>Legacy Boot</strong></div>
+
+<div><strong>CSM – Compatibility Support Module</strong></div>
+</div>
+</div>
+
+<div style="background-color:#f9fafb;border:1px solid #e5e7eb;border-radius:12px;padding:20px;margin-bottom:28px;">
+<h3 style="margin:0 0 10px 0;color:#0f766e;font-size:18px;">📝 Uppgifter</h3>
+
+<ol style="margin:0;padding-left:22px;">
+	<li style="margin-bottom:10px;">Anteckna vilket startläge datorn använder.</li>
+	<li style="margin-bottom:10px;">Undersök om Legacy/CSM finns som alternativ.</li>
+	<li>Förklara kort skillnaden mellan UEFI och Legacy BIOS-start.</li>
+</ol>
+
+<p style="margin:12px 0 0 0;font-size:14px;color:#475569;">På många moderna datorer finns endast UEFI. Det är normalt om du inte hittar något Legacy-alternativ.</p>
+</div>
+
+<h2 style="font-size:23px;color:#111827;margin-bottom:15px;">🛡️ Del 6 – TPM (Trusted Platform Module)</h2>
+
+<p>Leta efter inställningar som handlar om <strong>TPM – Trusted Platform Module</strong>.</p>
+
+<div style="background-color:#f0fdfa;border-left:5px solid #14b8a6;border-radius:10px;padding:18px 20px;margin-bottom:25px;">
+<h3 style="margin:0 0 10px 0;color:#0f766e;font-size:18px;">Vanliga namn</h3>
+
+<div style="background-color:#ffffff;border:1px solid #ccfbf1;border-radius:8px;padding:15px 18px;">
+<div style="margin-bottom:8px;">TPM</div>
+
+<div style="margin-bottom:8px;">Trusted Platform Module</div>
+
+<div style="margin-bottom:8px;">Intel PTT</div>
+
+<div>AMD fTPM</div>
+</div>
+</div>
+
+<div style="background-color:#f9fafb;border:1px solid #e5e7eb;border-radius:12px;padding:20px;margin-bottom:28px;">
+<h3 style="margin:0 0 10px 0;color:#0f766e;font-size:18px;">📝 Uppgifter</h3>
+
+<ol style="margin:0;padding-left:22px;">
+	<li style="margin-bottom:10px;">Försök hitta TPM-inställningen.</li>
+	<li style="margin-bottom:10px;">Anteckna om TPM är aktiverat.</li>
+	<li style="margin-bottom:10px;">Förklara vad TPM är.</li>
+	<li style="margin-bottom:10px;">Ge exempel på vad TPM används till.</li>
+	<li>Förklara varför TPM 2.0 är relevant för Windows 11.</li>
+</ol>
+
+<p style="margin:12px 0 0 0;color:#b45309;font-weight:bold;">⚠️ Ändra eller rensa inte TPM.</p>
+</div>
+
+<h2 style="font-size:23px;color:#111827;margin-bottom:15px;">💾 Del 7 – Starta från USB</h2>
+
+<p>I denna del ska du undersöka om datorn kan identifiera ett startbart USB-minne.</p>
+
+<div style="background-color:#fff7ed;border-left:5px solid #f59e0b;border-radius:10px;padding:18px 20px;margin-bottom:20px;">
+<p style="margin:0;"><strong>Viktigt:</strong> Använd endast ett bootbart USB-minne som läraren har godkänt. Starta inte installationsprogrammet eller ändra diskar utan lärarens instruktioner.</p>
+</div>
+
+<div style="background-color:#f0fdfa;border-left:5px solid #14b8a6;border-radius:10px;padding:18px 20px;margin-bottom:25px;">
+<h3 style="margin:0 0 12px 0;color:#0f766e;font-size:19px;">Uppgifter</h3>
+
+<ol style="margin:0;padding-left:22px;">
+	<li style="margin-bottom:10px;">Anslut ett bootbart USB-minne till datorn.</li>
+	<li style="margin-bottom:10px;">Starta om datorn och öppna <strong>Boot Menu</strong>.</li>
+	<li style="margin-bottom:10px;">Kontrollera om USB-minnet visas som ett startalternativ.</li>
+	<li style="margin-bottom:10px;">Anteckna hur USB-minnet visas i menyn.</li>
+	<li>Om läraren uttryckligen tillåter det:
+	<ol style="margin-top:8px;padding-left:22px;">
+		<li>Välj USB-minnet.</li>
+		<li>Kontrollera att USB-minnets startmeny eller installationsmiljö visas.</li>
+		<li>Avsluta utan att installera eller ändra något.</li>
+	</ol>
+	</li>
+</ol>
+</div>
+
+<div style="background-color:#eff6ff;border-left:5px solid #3b82f6;border-radius:10px;padding:18px 20px;margin-bottom:28px;">
+<h3 style="margin:0 0 8px 0;color:#1d4ed8;font-size:18px;">👨‍🏫 Lärarkontroll</h3>
+
+<p style="margin:0;">Visa läraren att USB-minnet identifieras i Boot Menu innan du försöker starta från det. Om USB-minnet inte visas ska du dokumentera problemet och be läraren om hjälp.</p>
+</div>
+
+<h2 style="font-size:23px;color:#111827;margin-bottom:15px;">📖 Del 8 – Teorifrågor</h2>
+
+<p>Besvara följande frågor i ditt Word-dokument. Använd egna ord och förklara så tydligt som möjligt.</p>
+
+<div style="background-color:#f9fafb;border:1px solid #e5e7eb;border-radius:12px;padding:20px;margin-bottom:28px;">
+<ol style="margin:0;padding-left:22px;">
+	<li style="margin-bottom:10px;">Vad är BIOS?</li>
+	<li style="margin-bottom:10px;">Vad är UEFI?</li>
+	<li style="margin-bottom:10px;">Vad är skillnaden mellan BIOS och UEFI?</li>
+	<li style="margin-bottom:10px;">Vad är Boot Order?</li>
+	<li style="margin-bottom:10px;">Vad är Boot Menu?</li>
+	<li style="margin-bottom:10px;">Vad gör Secure Boot?</li>
+	<li style="margin-bottom:10px;">Vad är TPM?</li>
+	<li style="margin-bottom:10px;">Vad betyder Legacy Boot?</li>
+	<li style="margin-bottom:10px;">Varför kan en IT-tekniker behöva ändra Boot Order?</li>
+	<li>Vad kan orsaka att ett bootbart USB-minne inte visas i Boot Menu?</li>
+</ol>
+</div>
+
+<h2 style="font-size:23px;color:#111827;margin-bottom:15px;">⭐ Extra – Felsökning</h2>
+
+<div style="background-color:#fff7ed;border-left:5px solid #f59e0b;border-radius:10px;padding:18px 20px;margin-bottom:28px;">
+<h3 style="margin:0 0 10px 0;color:#b45309;font-size:19px;">🧑‍💼 Kundscenario</h3>
+
+<p style="margin:0 0 15px 0;">En kund kontaktar dig och säger:</p>
+
+<div style="background-color:#ffffff;border:1px solid #fed7aa;border-radius:8px;padding:15px 18px;margin-bottom:15px;font-size:17px;font-style:italic;">"Jag har skapat ett Windows-installations-USB, men när jag startar datorn går den bara direkt in i Windows."</div>
+
+<p style="margin:0 0 10px 0;"><strong>Din uppgift:</strong></p>
+
+<p style="margin:0;">Beskriv steg för steg hur du som IT-tekniker skulle felsöka problemet. Förklara vad du skulle kontrollera först, vilka möjliga orsaker som finns och hur du skulle undersöka om USB-minnet fungerar.</p>
+</div>
+
+<div style="background-color:#f9fafb;border:1px solid #e5e7eb;border-radius:12px;padding:20px;margin-bottom:28px;">
+<h2 style="margin:0 0 12px 0;color:#111827;font-size:21px;">✅ Kontrollera innan du lämnar in</h2>
+
+<div style="margin-bottom:8px;">☐ Jag har dokumenterat vilken dator jag använde.</div>
+
+<div style="margin-bottom:8px;">☐ Jag har beskrivit hur jag öppnade BIOS/UEFI.</div>
+
+<div style="margin-bottom:8px;">☐ Jag har antecknat information om datorns hårdvara.</div>
+
+<div style="margin-bottom:8px;">☐ Jag har undersökt Boot Order och Boot Menu.</div>
+
+<div style="margin-bottom:8px;">☐ Jag har undersökt Secure Boot, UEFI/Legacy och TPM.</div>
+
+<div style="margin-bottom:8px;">☐ Jag har kontrollerat om ett bootbart USB-minne visas.</div>
+
+<div style="margin-bottom:8px;">☐ Jag har besvarat alla tio teorifrågorna.</div>
+
+<div style="margin-bottom:8px;">☐ Jag har lagt till fotografier eller skärmbilder där det var möjligt.</div>
+
+<div>☐ Jag har inte ändrat några BIOS/UEFI-inställningar.</div>
+</div>
+
+<div style="background-color:#ecfdf5;border:1px solid #a7f3d0;border-radius:12px;padding:20px;">
+<h2 style="margin:0 0 8px 0;color:#047857;font-size:22px;">📤 Inlämning</h2>
+
+<p style="margin:0 0 12px 0;">Samla dina anteckningar, svar och eventuella fotografier eller skärmbilder i ett <strong>Word-dokument</strong>.</p>
+
+<p style="margin:0 0 12px 0;">Spara dokumentet i <strong>Word-format (.docx)</strong> och ladda upp det till itslearning.</p>
+
+<div style="background-color:#ffffff;border:1px solid #a7f3d0;border-radius:8px;padding:11px 15px;"><strong>Filnamn:</strong> <span style="font-family:Consolas,monospace;"> BIOS_UEFI_efternamn.docx </span></div>
+</div>
+</div>
+</div>

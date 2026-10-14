@@ -1,0 +1,163 @@
+<div style="max-width:900px;margin:20px auto;font-family:Arial, Helvetica, sans-serif;color:#1f2937;line-height:1.6;">
+<div style="background:linear-gradient(135deg, #0f766e, #14b8a6);padding:28px 30px;border-radius:16px 16px 0 0;">
+<div style="font-size:14px;font-weight:bold;letter-spacing:1px;text-transform:uppercase;">ICT – DATORNS GRUNDER – UPPGIFT 2</div>
+
+<div style="margin:6px 0 5px 0;font-size:30px;font-weight:bold;line-height:1.3;">🔧 Praktisk övning – Bygg ihop en dator</div>
+
+<div style="font-size:16px;">Demontera, identifiera och montera datorns komponenter samt dokumentera arbetet.</div>
+</div>
+
+<div style="background-color:#ffffff;border:1px solid #e5e7eb;border-top:none;padding:28px;border-radius:0 0 16px 16px;">
+<div style="background-color:#ecfdf5;border-left:5px solid #14b8a6;border-radius:10px;padding:18px 20px;margin-bottom:25px;">
+<h2 style="margin:0 0 7px 0;color:#0f766e;font-size:21px;">🎯 Mål</h2>
+
+<p style="margin:0;">Lära dig att identifiera, demontera och montera datorns viktigaste hårdvarukomponenter på ett säkert sätt. Du ska också kunna kontrollera att datorn fungerar efter monteringen.</p>
+</div>
+
+<div style="background-color:#fff7ed;border-left:5px solid #f59e0b;border-radius:10px;padding:18px 20px;margin-bottom:28px;">
+<h2 style="margin:0 0 10px 0;color:#b45309;font-size:21px;">⚠️ Viktigt innan du börjar</h2>
+
+<ul style="margin:0;padding-left:22px;">
+	<li>Använd endast en dator som läraren har godkänt för övningen.</li>
+	<li>Stäng av datorn helt och koppla bort strömkabeln innan du öppnar den.</li>
+	<li>Arbeta försiktigt och skydda komponenterna mot statisk elektricitet (ESD).</li>
+	<li>Använd rätt verktyg och håll reda på skruvar och kablar.</li>
+	<li>Ta aldrig isär själva nätaggregatet (PSU).</li>
+	<li>Ta inte bort processorn eller CPU-kylaren utan lärarens instruktioner.</li>
+	<li>Fråga läraren om du är osäker på hur en komponent ska tas bort eller monteras.</li>
+</ul>
+</div>
+
+<h2 style="font-size:23px;color:#111827;margin-bottom:15px;">🔍 Del 1 – Identifiera komponenterna</h2>
+
+<p>Börja med att öppna datorns chassi och undersöka vilka komponenter som finns inuti.</p>
+
+<div style="background-color:#f9fafb;border:1px solid #e5e7eb;border-radius:12px;padding:20px;margin-bottom:25px;">
+<p style="margin:0 0 10px 0;"><strong>Identifiera följande komponenter:</strong></p>
+
+<div style="margin-bottom:8px;">☐ Moderkort (Motherboard)</div>
+
+<div style="margin-bottom:8px;">☐ Processor (CPU) – identifiera var den sitter</div>
+
+<div style="margin-bottom:8px;">☐ Arbetsminne (RAM)</div>
+
+<div style="margin-bottom:8px;">☐ Grafikkort (GPU), om separat grafikkort finns</div>
+
+<div style="margin-bottom:8px;">☐ Hårddisk / SSD</div>
+
+<div style="margin-bottom:8px;">☐ Nätaggregat (PSU)</div>
+
+<div style="margin-bottom:8px;">☐ Kylsystem och fläktar</div>
+
+<div>☐ Kablar och anslutningar</div>
+</div>
+
+<p>Ta en bild av datorns insida innan du börjar demontera komponenterna. Bilden kan hjälpa dig när datorn ska monteras ihop igen.</p>
+
+<h2 style="font-size:23px;color:#111827;margin:30px 0 15px 0;">🪛 Del 2 – Demontera datorn</h2>
+
+<p>Demontera de komponenter som läraren har godkänt för övningen. Arbeta metodiskt och dokumentera de olika stegen.</p>
+
+<div style="background-color:#f0fdfa;border-left:5px solid #14b8a6;border-radius:10px;padding:18px 20px;margin-bottom:20px;">
+<ol style="margin:0;padding-left:22px;">
+	<li style="margin-bottom:9px;">Kontrollera att datorn är avstängd och strömkabeln bortkopplad.</li>
+	<li style="margin-bottom:9px;">Öppna datorns chassi.</li>
+	<li style="margin-bottom:9px;">Ta bilder av komponenterna och deras anslutningar.</li>
+	<li style="margin-bottom:9px;">Koppla försiktigt bort de kablar som behöver lossas.</li>
+	<li style="margin-bottom:9px;">Demontera de komponenter som läraren har anvisat.</li>
+	<li>Placera komponenter och skruvar på en säker plats.</li>
+</ol>
+</div>
+
+<div style="background-color:#eff6ff;border-left:5px solid #3b82f6;border-radius:10px;padding:17px 20px;margin-bottom:28px;"><strong style="color:#1d4ed8;">👨‍🏫 Lärarkontroll</strong>
+
+<p style="margin:7px 0 0 0;">När demonteringen är färdig ska du visa datorn och komponenterna för läraren innan du börjar montera ihop datorn igen.</p>
+</div>
+
+<h2 style="font-size:23px;color:#111827;margin-bottom:15px;">🔩 Del 3 – Montera ihop datorn</h2>
+
+<p>Montera tillbaka komponenterna på rätt plats. Använd dina tidigare bilder som stöd.</p>
+
+<div style="background-color:#f9fafb;border:1px solid #e5e7eb;border-radius:12px;padding:20px;margin-bottom:25px;">
+<ol style="margin:0;padding-left:22px;">
+	<li style="margin-bottom:9px;">Montera tillbaka komponenterna i rätt ordning.</li>
+	<li style="margin-bottom:9px;">Anslut kablarna till rätt kontakter.</li>
+	<li style="margin-bottom:9px;">Kontrollera att RAM och eventuella instickskort sitter ordentligt.</li>
+	<li style="margin-bottom:9px;">Kontrollera att inga lösa skruvar eller verktyg finns kvar i datorn.</li>
+	<li style="margin-bottom:9px;">Kontrollera att kablar inte ligger i vägen för fläktarna.</li>
+	<li>Be läraren kontrollera datorn innan strömmen ansluts.</li>
+</ol>
+</div>
+
+<h2 style="font-size:23px;color:#111827;margin-bottom:15px;">💻 Del 4 – Testa datorn</h2>
+
+<p>När datorn är korrekt ihopmonterad och läraren har godkänt monteringen ska du kontrollera att den fungerar.</p>
+
+<div style="background-color:#f9fafb;border:1px solid #e5e7eb;border-radius:12px;padding:20px;margin-bottom:25px;">
+<div style="margin-bottom:8px;">☐ Datorn startar när strömknappen trycks in.</div>
+
+<div style="margin-bottom:8px;">☐ Fläktarna fungerar normalt.</div>
+
+<div style="margin-bottom:8px;">☐ Bild visas på skärmen.</div>
+
+<div style="margin-bottom:8px;">☐ Datorn kommer till BIOS/UEFI eller startar operativsystemet.</div>
+
+<div>☐ Inga tydliga felmeddelanden visas.</div>
+</div>
+
+<p>Om datorn inte fungerar som förväntat ska du dokumentera problemet och kontakta läraren innan du gör ytterligare ändringar.</p>
+
+<h2 style="font-size:23px;color:#111827;margin:30px 0 15px 0;">📝 Del 5 – Dokumentera arbetet</h2>
+
+<p>Skapa en kort rapport i Word på cirka <strong>2–3 sidor</strong>. Rapporten ska beskriva hur du genomförde övningen.</p>
+
+<div style="background-color:#f0fdfa;border-left:5px solid #14b8a6;border-radius:10px;padding:18px 20px;margin-bottom:22px;">
+<p style="margin:0 0 10px 0;"><strong>Rapporten ska innehålla:</strong></p>
+
+<ol style="margin:0;padding-left:22px;">
+	<li style="margin-bottom:9px;"><strong>Introduktion:</strong> Vilken dator arbetade du med?</li>
+	<li style="margin-bottom:9px;"><strong>Demontering:</strong> Vilka komponenter tog du bort?</li>
+	<li style="margin-bottom:9px;"><strong>Montering:</strong> Hur monterade du tillbaka komponenterna?</li>
+	<li style="margin-bottom:9px;"><strong>Bilder:</strong> Visa viktiga steg med fotografier och korta förklaringar.</li>
+	<li style="margin-bottom:9px;"><strong>Test:</strong> Startade datorn och fungerade den som förväntat?</li>
+	<li><strong>Reflektion:</strong> Vad lärde du dig av övningen?</li>
+</ol>
+</div>
+
+<div style="background-color:#fff7ed;border-left:5px solid #f59e0b;border-radius:10px;padding:18px 20px;margin-bottom:28px;">
+<h2 style="margin:0 0 10px 0;color:#b45309;font-size:21px;">🤔 Reflektionsfrågor</h2>
+
+<ol style="margin:0;padding-left:22px;">
+	<li>Vilken komponent var enklast att demontera och montera tillbaka?</li>
+	<li>Vilken del av arbetet var svårast? Varför?</li>
+	<li>Varför är det viktigt att dokumentera var kablar och komponenter sitter?</li>
+	<li>Vad skulle du göra annorlunda nästa gång?</li>
+	<li>Vad har du lärt dig om datorns uppbyggnad?</li>
+</ol>
+</div>
+
+<div style="background-color:#f9fafb;border:1px solid #e5e7eb;border-radius:12px;padding:20px;margin-bottom:28px;">
+<h2 style="margin:0 0 12px 0;color:#111827;font-size:21px;">✅ Kontrollera innan du lämnar in</h2>
+
+<div style="margin-bottom:8px;">☐ Jag har identifierat datorns viktigaste komponenter.</div>
+
+<div style="margin-bottom:8px;">☐ Jag har demonterat och monterat enligt lärarens instruktioner.</div>
+
+<div style="margin-bottom:8px;">☐ Datorn har kontrollerats och testats.</div>
+
+<div style="margin-bottom:8px;">☐ Rapporten beskriver arbetsprocessen i rätt ordning.</div>
+
+<div style="margin-bottom:8px;">☐ Jag har lagt till bilder och korta förklaringar.</div>
+
+<div>☐ Jag har besvarat reflektionsfrågorna.</div>
+</div>
+
+<div style="background-color:#ecfdf5;border:1px solid #a7f3d0;border-radius:12px;padding:20px;">
+<h2 style="margin:0 0 8px 0;color:#047857;font-size:22px;">📤 Inlämning</h2>
+
+<p style="margin:0 0 12px 0;">Spara din rapport och lämna in den i itslearning i <strong>PDF-format</strong>.</p>
+
+<div style="background-color:#ffffff;border:1px solid #a7f3d0;border-radius:8px;padding:11px 15px;"><strong>Filnamn:</strong> <span style="font-family:Consolas, monospace;"> Datorbygge_Fornamn_Efternamn.pdf </span></div>
+</div>
+</div>
+</div>

@@ -1,0 +1,214 @@
+<div style="max-width:900px;margin:20px auto;font-family:Arial, Helvetica, sans-serif;color:#1f2937;line-height:1.6;">
+<div style="background:linear-gradient(135deg, #0f766e, #2563eb);color:white;padding:28px 30px;border-radius:16px 16px 0 0;">
+<div style="font-size:14px;font-weight:bold;letter-spacing:1px;text-transform:uppercase;">ICT – USB och lagring</div>
+
+<h1 style="margin:6px 0 5px 0;font-size:30px;">💾 Filsystem – FAT32, exFAT och NTFS</h1>
+
+<p style="margin:0;font-size:16px;">Undersök, formatera och jämför olika filsystem på ett USB-minne.</p>
+</div>
+
+<div style="background-color:#ffffff;border:1px solid #e5e7eb;border-top:none;padding:28px;border-radius:0 0 16px 16px;">
+<div style="background-color:#eff6ff;border-left:5px solid #2563eb;border-radius:10px;padding:18px 20px;margin-bottom:28px;">
+<h2 style="margin:0 0 8px 0;color:#1d4ed8;font-size:21px;">🎯 Syfte</h2>
+
+<p style="margin:0 0 10px 0;">När en hårddisk eller ett USB-minne formateras måste ett <strong>filsystem</strong> väljas. Olika filsystem har olika egenskaper och passar därför för olika användningsområden.</p>
+
+<p style="margin:0 0 8px 0;">I denna uppgift ska du arbeta praktiskt med:</p>
+
+<div style="font-size:17px;">💾 <strong>FAT32</strong> &nbsp;&nbsp; • &nbsp;&nbsp; 💾 <strong>exFAT</strong> &nbsp;&nbsp; • &nbsp;&nbsp; 💾 <strong>NTFS</strong></div>
+</div>
+
+<div style="background-color:#fef2f2;border:2px solid #ef4444;border-radius:12px;padding:20px;margin-bottom:30px;">
+<h2 style="margin:0 0 9px 0;color:#b91c1c;font-size:21px;">⚠️ Viktigt – formatering raderar filer</h2>
+
+<p style="margin:0;">När du formaterar USB-minnet kommer innehållet på det att raderas. Kontrollera därför att USB-minnet <strong>inte innehåller några viktiga filer</strong> innan du börjar.</p>
+</div>
+
+<div style="background-color:#ecfeff;border-radius:12px;padding:20px 22px;margin-bottom:16px;">
+<div style="font-size:13px;color:#0891b2;font-weight:bold;text-transform:uppercase;">Del 1</div>
+
+<h2 style="margin:3px 0 5px 0;color:#0e7490;font-size:24px;">🔍 Undersök filsystemet</h2>
+</div>
+
+<div style="border:1px solid #e5e7eb;border-radius:10px;padding:20px;margin-bottom:30px;">
+<ol style="margin:0;padding-left:24px;">
+	<li style="margin-bottom:9px;">Anslut ett USB-minne.</li>
+	<li style="margin-bottom:9px;">Öppna <strong>Utforskaren → Den här datorn</strong>.</li>
+	<li style="margin-bottom:9px;">Högerklicka på USB-minnet.</li>
+	<li style="margin-bottom:9px;">Välj <strong>Egenskaper</strong>.</li>
+	<li>Leta efter informationen <strong>Filsystem</strong>.</li>
+</ol>
+
+<div style="background-color:#eff6ff;border-left:5px solid #2563eb;border-radius:8px;padding:14px 17px;margin-top:18px;">📝 <strong>Dokumentera:</strong> Anteckna vilket filsystem USB-minnet använder innan du börjar formatera det och ta en skärmbild.</div>
+</div>
+
+<div style="background-color:#eef2ff;border-radius:12px;padding:20px 22px;margin-bottom:16px;">
+<div style="font-size:13px;color:#4f46e5;font-weight:bold;text-transform:uppercase;">Del 2</div>
+
+<h2 style="margin:3px 0 5px 0;color:#4338ca;font-size:24px;">🛠️ Formatera USB-minnet</h2>
+</div>
+
+<div style="border:1px solid #e5e7eb;border-radius:10px;padding:20px;margin-bottom:30px;">
+<div style="background-color:#fef2f2;border-left:5px solid #dc2626;border-radius:8px;padding:14px 17px;margin-bottom:18px;"><strong style="color:#b91c1c;">⚠️ OBS!</strong><br />
+Formatering raderar innehållet på USB-minnet. Kontrollera en extra gång att du arbetar med rätt enhet.</div>
+
+<ol style="margin:0;padding-left:24px;">
+	<li style="margin-bottom:9px;">Högerklicka på USB-minnet i Utforskaren.</li>
+	<li style="margin-bottom:9px;">Välj <strong>Formatera</strong>.</li>
+	<li style="margin-bottom:9px;">Undersök vilka filsystem Windows låter dig välja.</li>
+	<li style="margin-bottom:9px;">Välj ett filsystem.</li>
+	<li style="margin-bottom:9px;">Ge USB-minnet namnet <strong>TEST_USB</strong>.</li>
+	<li style="margin-bottom:9px;">Välj <strong>Snabbformatering</strong>.</li>
+	<li>Starta formateringen.</li>
+</ol>
+
+<div style="background-color:#f5f3ff;border-left:5px solid #7c3aed;border-radius:8px;padding:15px 17px;margin-top:18px;"><strong style="color:#6d28d9;">🔄 Upprepa processen</strong><br />
+Formatera och testa USB-minnet med <strong>FAT32, exFAT och NTFS</strong>, om alternativen finns tillgängliga för USB-minnet.</div>
+</div>
+
+<div style="background-color:#f0fdf4;border-radius:12px;padding:20px 22px;margin-bottom:16px;">
+<div style="font-size:13px;color:#16a34a;font-weight:bold;text-transform:uppercase;">Del 3</div>
+
+<h2 style="margin:3px 0 5px 0;color:#15803d;font-size:24px;">🧪 Testa filsystemen</h2>
+</div>
+
+<div style="border:1px solid #e5e7eb;border-radius:10px;padding:20px;margin-bottom:30px;">
+<p style="margin-top:0;">Genomför följande test med varje filsystem.</p>
+
+<ol style="padding-left:24px;">
+	<li style="margin-bottom:9px;">Skapa en mapp på USB-minnet.</li>
+	<li style="margin-bottom:9px;">Kopiera några olika typer av filer till USB-minnet.</li>
+	<li style="margin-bottom:9px;">Öppna filerna direkt från USB-minnet.</li>
+	<li>Radera en av filerna.</li>
+</ol>
+
+<div style="background-color:#fff7ed;border-left:5px solid #f59e0b;border-radius:9px;padding:16px 18px;margin-top:18px;"><strong style="color:#b45309;">📦 Test med en stor fil</strong>
+
+<p style="margin:7px 0 0 0;">Om möjligt, försök även kopiera en <strong>enskild fil som är större än 4 GB</strong> till USB-minnet när det använder FAT32, exFAT respektive NTFS.</p>
+</div>
+
+<div style="background-color:#eff6ff;border-left:5px solid #2563eb;border-radius:8px;padding:14px 17px;margin-top:12px;">📸 <strong>Dokumentera:</strong> Anteckna vad som händer och ta skärmbilder som visar resultaten. Om ett felmeddelande visas ska även detta dokumenteras.</div>
+</div>
+
+<div style="background-color:#fff7ed;border-radius:12px;padding:20px 22px;margin-bottom:16px;">
+<div style="font-size:13px;color:#d97706;font-weight:bold;text-transform:uppercase;">Del 4</div>
+
+<h2 style="margin:3px 0 5px 0;color:#b45309;font-size:24px;">📊 Jämför filsystemen</h2>
+</div>
+
+<div style="border:1px solid #e5e7eb;border-radius:10px;padding:20px;margin-bottom:30px;overflow-x:auto;">
+<p style="margin-top:0;">Använd dina tester och det du har lärt dig för att fylla i tabellen.</p>
+
+<table style="width:100%;border-collapse:collapse;min-width:650px;font-size:14px;">
+	<tbody>
+		<tr style="background-color:#f3f4f6;color:#000000;">
+			<th style="padding:11px;border:1px solid #d1d5db;text-align:left;color:#000000;">Egenskap</th>
+			<th style="padding:11px;border:1px solid #d1d5db;text-align:center;color:#000000;">FAT32</th>
+			<th style="padding:11px;border:1px solid #d1d5db;text-align:center;color:#000000;">exFAT</th>
+			<th style="padding:11px;border:1px solid #d1d5db;text-align:center;color:#000000;">NTFS</th>
+		</tr>
+		<tr>
+			<td style="padding:10px;border:1px solid #d1d5db;"><strong>Maximal filstorlek</strong></td>
+			<td style="padding:10px;border:1px solid #d1d5db;">&nbsp;</td>
+			<td style="padding:10px;border:1px solid #d1d5db;">&nbsp;</td>
+			<td style="padding:10px;border:1px solid #d1d5db;">&nbsp;</td>
+		</tr>
+		<tr style="background-color:#f9fafb;">
+			<td style="padding:10px;border:1px solid #d1d5db;"><strong>Fungerar i Windows</strong></td>
+			<td style="padding:10px;border:1px solid #d1d5db;">&nbsp;</td>
+			<td style="padding:10px;border:1px solid #d1d5db;">&nbsp;</td>
+			<td style="padding:10px;border:1px solid #d1d5db;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td style="padding:10px;border:1px solid #d1d5db;"><strong>Filer större än 4 GB</strong></td>
+			<td style="padding:10px;border:1px solid #d1d5db;">&nbsp;</td>
+			<td style="padding:10px;border:1px solid #d1d5db;">&nbsp;</td>
+			<td style="padding:10px;border:1px solid #d1d5db;">&nbsp;</td>
+		</tr>
+		<tr style="background-color:#f9fafb;">
+			<td style="padding:10px;border:1px solid #d1d5db;"><strong>Fördelar</strong></td>
+			<td style="padding:10px;border:1px solid #d1d5db;">&nbsp;</td>
+			<td style="padding:10px;border:1px solid #d1d5db;">&nbsp;</td>
+			<td style="padding:10px;border:1px solid #d1d5db;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td style="padding:10px;border:1px solid #d1d5db;"><strong>Nackdelar</strong></td>
+			<td style="padding:10px;border:1px solid #d1d5db;">&nbsp;</td>
+			<td style="padding:10px;border:1px solid #d1d5db;">&nbsp;</td>
+			<td style="padding:10px;border:1px solid #d1d5db;">&nbsp;</td>
+		</tr>
+		<tr style="background-color:#f9fafb;">
+			<td style="padding:10px;border:1px solid #d1d5db;"><strong>Typiskt användningsområde</strong></td>
+			<td style="padding:10px;border:1px solid #d1d5db;">&nbsp;</td>
+			<td style="padding:10px;border:1px solid #d1d5db;">&nbsp;</td>
+			<td style="padding:10px;border:1px solid #d1d5db;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<div style="background-color:#f5f3ff;border-left:5px solid #7c3aed;border-radius:10px;padding:20px;margin-bottom:28px;">
+<h2 style="margin:0 0 12px 0;color:#6d28d9;font-size:21px;">❓ Frågor</h2>
+
+<p style="margin-top:0;">Svara på frågorna med <strong>egna ord</strong>.</p>
+
+<ol style="margin-bottom:0;padding-left:24px;">
+	<li style="margin-bottom:9px;">Vad är ett filsystem?</li>
+	<li style="margin-bottom:9px;">Varför behöver en lagringsenhet ett filsystem?</li>
+	<li style="margin-bottom:9px;">Vad är skillnaden mellan <strong>FAT32, exFAT och NTFS</strong>?</li>
+	<li style="margin-bottom:9px;">Varför kan FAT32 skapa problem med stora filer?</li>
+	<li style="margin-bottom:9px;">Vad händer om du försöker kopiera en fil som är större än 4 GB till FAT32?</li>
+	<li style="margin-bottom:9px;">När skulle du välja exFAT?</li>
+	<li style="margin-bottom:9px;">När skulle du välja NTFS?</li>
+	<li style="margin-bottom:9px;">Varför används FAT32 fortfarande trots att det är ett äldre filsystem?</li>
+	<li>Vilket av de tre filsystemen skulle du välja för ett vanligt USB-minne i Windows? <strong>Motivera ditt svar.</strong></li>
+</ol>
+</div>
+
+<div style="background-color:#ecfeff;border-left:5px solid #0891b2;border-radius:10px;padding:20px;margin-bottom:28px;">
+<h2 style="margin:0 0 12px 0;color:#0e7490;font-size:21px;">📸 Dokumentation</h2>
+
+<p style="margin-top:0;">Dokumentera hela processen medan du utför uppgiften. Dokumentationen ska vara så tydlig att en annan person kan förstå hur uppgiften genomfördes.</p>
+
+<div style="margin-bottom:8px;">✓ Kort beskrivning av vad du gjorde i varje del.</div>
+
+<div style="margin-bottom:8px;">✓ Skärmbilder från de viktigaste stegen och resultaten.</div>
+
+<div style="margin-bottom:8px;">✓ Resultaten från testerna med FAT32, exFAT och NTFS.</div>
+
+<div style="margin-bottom:8px;">✓ Resultatet av testet med en fil större än 4 GB, om detta kunde genomföras.</div>
+
+<div style="margin-bottom:8px;">✓ Den ifyllda jämförelsetabellen.</div>
+
+<div style="margin-bottom:8px;">✓ Svar på alla frågor.</div>
+
+<div>✓ Eventuella problem som uppstod och hur du löste dem.</div>
+</div>
+
+<div style="background-color:#f9fafb;border:1px solid #e5e7eb;border-radius:12px;padding:20px;margin-bottom:28px;">
+<h2 style="margin:0 0 13px 0;color:#111827;font-size:21px;">✅ Kontrollera innan du lämnar in</h2>
+
+<div style="margin-bottom:8px;">✓ USB-minnets ursprungliga filsystem har dokumenterats.</div>
+
+<div style="margin-bottom:8px;">✓ FAT32 har testats, om alternativet fanns tillgängligt.</div>
+
+<div style="margin-bottom:8px;">✓ exFAT har testats.</div>
+
+<div style="margin-bottom:8px;">✓ NTFS har testats.</div>
+
+<div style="margin-bottom:8px;">✓ Resultaten har jämförts.</div>
+
+<div style="margin-bottom:8px;">✓ Jämförelsetabellen är ifylld.</div>
+
+<div style="margin-bottom:8px;">✓ Alla frågor är besvarade med egna ord.</div>
+
+<div>✓ Dokumentationen innehåller skärmbilder och förklaringar.</div>
+</div>
+
+<div style="background-color:#ecfdf5;border-left:5px solid #10b981;border-radius:10px;padding:19px 20px;">
+<h2 style="margin:0 0 8px 0;color:#047857;font-size:21px;">📤 Inlämning</h2>
+
+<p style="margin:0;">Spara er dokumentation och lämna in den i <strong>PDF- eller Word-format</strong>.</p>
+</div>
+</div>
+</div>

@@ -1,0 +1,112 @@
+<div style="max-width:900px;margin:20px auto;font-family:Arial, Helvetica, sans-serif;color:#1f2937;line-height:1.6;">
+<div style="background:linear-gradient(135deg, #0369a1, #0891b2);color:white;padding:28px 30px;border-radius:16px 16px 0 0;">
+<div style="font-size:14px;font-weight:bold;letter-spacing:1px;text-transform:uppercase;">ICT – Virtualisering och nätverk</div>
+
+<h1 style="margin:6px 0 5px 0;font-size:30px;">🌐 Nätverk mellan virtuella maskiner</h1>
+
+<p style="margin:0;font-size:16px;">Koppla ihop två virtuella maskiner och testa kommunikationen mellan dem.</p>
+</div>
+
+<div style="background-color:#ffffff;border:1px solid #e5e7eb;border-top:none;padding:28px;border-radius:0 0 16px 16px;">
+<div style="background-color:#ecfeff;border-left:5px solid #0891b2;border-radius:10px;padding:18px 20px;margin-bottom:28px;">
+<h2 style="margin:0 0 7px 0;color:#0e7490;font-size:21px;">🎯 Mål</h2>
+
+<p style="margin:0;">Förstå hur nätverk fungerar i <strong>VirtualBox</strong> genom att koppla ihop två virtuella maskiner och testa kommunikationen mellan dem.</p>
+</div>
+
+<h2 style="font-size:23px;color:#111827;margin-bottom:18px;">📋 Instruktioner</h2>
+
+<div style="background-color:#f9fafb;border-left:5px solid #0891b2;border-radius:10px;padding:18px 20px;margin-bottom:16px;">
+<h3 style="margin:0 0 8px 0;color:#0e7490;">1. Förbered två virtuella maskiner</h3>
+
+<p style="margin:0;">Skapa eller använd <strong>två virtuella maskiner</strong>, till exempel:</p>
+
+<div style="margin-top:12px;background-color:#ffffff;border:1px solid #cffafe;border-radius:8px;padding:14px 18px;">🪟 <strong>Windows 11</strong> <span style="color:#6b7280;margin:0 8px;">+</span> 🐧 <strong>Ubuntu Linux</strong></div>
+</div>
+
+<div style="background-color:#f9fafb;border-left:5px solid #0891b2;border-radius:10px;padding:18px 20px;margin-bottom:16px;">
+<h3 style="margin:0 0 8px 0;color:#0e7490;">2. Konfigurera nätverket</h3>
+
+<p>Öppna inställningarna för respektive virtuell maskin i VirtualBox.</p>
+
+<div style="background-color:#ffffff;border:1px solid #d1d5db;border-radius:8px;padding:13px 16px;text-align:center;"><strong>Settings → Network → Internal Network</strong></div>
+
+<p style="margin-bottom:0;margin-top:12px;">Ställ in <strong>Internal Network</strong> på båda maskinerna.</p>
+</div>
+
+<div style="background-color:#f9fafb;border-left:5px solid #0891b2;border-radius:10px;padding:18px 20px;margin-bottom:16px;">
+<h3 style="margin:0 0 8px 0;color:#0e7490;">3. Starta maskinerna</h3>
+
+<p style="margin:0;">Starta både <strong>Windows 11</strong> och <strong>Ubuntu</strong>.</p>
+</div>
+
+<div style="background-color:#f9fafb;border-left:5px solid #0891b2;border-radius:10px;padding:18px 20px;margin-bottom:16px;">
+<h3 style="margin:0 0 8px 0;color:#0e7490;">4. Öppna terminalen</h3>
+
+<p style="margin:0;">Öppna <strong>CMD</strong> i Windows och <strong>Terminal</strong> i Ubuntu.</p>
+</div>
+
+<div style="background-color:#f9fafb;border-left:5px solid #0891b2;border-radius:10px;padding:18px 20px;margin-bottom:16px;">
+<h3 style="margin:0 0 12px 0;color:#0e7490;">5. Kontrollera IP-adresserna</h3>
+
+<p>Ta reda på vilken IP-adress respektive virtuell maskin har.</p>
+
+<div style="background-color:#111827;color:#f9fafb;border-radius:8px;padding:14px 17px;font-family:Consolas, monospace;margin-bottom:10px;"><span style="color:#67e8f9;">Windows &gt;</span> ipconfig</div>
+
+<div style="background-color:#111827;color:#f9fafb;border-radius:8px;padding:14px 17px;font-family:Consolas, monospace;"><span style="color:#67e8f9;">Ubuntu $</span> ifconfig</div>
+</div>
+
+<div style="background-color:#f9fafb;border-left:5px solid #0891b2;border-radius:10px;padding:18px 20px;margin-bottom:28px;">
+<h3 style="margin:0 0 8px 0;color:#0e7490;">6. Testa kommunikationen</h3>
+
+<p>Använd kommandot <strong>ping</strong> för att kontrollera om maskinerna kan kommunicera med varandra.</p>
+
+<div style="background-color:#ffffff;border:1px solid #cffafe;border-radius:8px;padding:15px 18px;">
+<div style="margin-bottom:8px;">🪟 <strong>Windows → Ubuntu</strong></div>
+
+<div>🐧 <strong>Ubuntu → Windows</strong></div>
+</div>
+
+<p style="margin:14px 0 7px 0;">Använd IP-adressen till den andra maskinen:</p>
+
+<div style="background-color:#111827;color:#f9fafb;border-radius:8px;padding:14px 17px;font-family:Consolas, monospace;">ping IP-adress</div>
+
+<p style="margin-bottom:0;color:#6b7280;font-size:14px;">Exempel: ping 192.168.1.10</p>
+</div>
+
+<div style="background-color:#f5f3ff;border-left:5px solid #7c3aed;border-radius:10px;padding:20px;margin-bottom:28px;">
+<h2 style="margin:0 0 12px 0;color:#6d28d9;font-size:21px;">📸 Dokumentation</h2>
+
+<p style="margin-top:0;">Dokumentera arbetet med skärmbilder.</p>
+
+<ul style="margin-bottom:0;padding-left:22px;">
+	<li>Ta en skärmbild som visar <strong>IP-adressen i Windows</strong>.</li>
+	<li>Ta en skärmbild som visar <strong>IP-adressen i Ubuntu</strong>.</li>
+	<li>Ta en skärmbild när du <strong>pingar från Windows till Ubuntu</strong>.</li>
+	<li>Ta en skärmbild när du <strong>pingar från Ubuntu till Windows</strong>.</li>
+</ul>
+</div>
+
+<div style="background-color:#f9fafb;border:1px solid #e5e7eb;border-radius:12px;padding:20px;margin-bottom:28px;">
+<h2 style="margin:0 0 12px 0;color:#111827;font-size:21px;">✅ Kontrollera innan du lämnar in</h2>
+
+<div style="margin-bottom:8px;">✓ Två virtuella maskiner är konfigurerade.</div>
+
+<div style="margin-bottom:8px;">✓ Båda använder Internal Network.</div>
+
+<div style="margin-bottom:8px;">✓ IP-adresserna har kontrollerats.</div>
+
+<div style="margin-bottom:8px;">✓ Windows kan pinga Ubuntu.</div>
+
+<div style="margin-bottom:8px;">✓ Ubuntu kan pinga Windows.</div>
+
+<div>✓ Resultaten är dokumenterade med skärmbilder.</div>
+</div>
+
+<div style="background-color:#ecfdf5;border-left:5px solid #10b981;border-radius:10px;padding:19px 20px;">
+<h2 style="margin:0 0 8px 0;color:#047857;font-size:21px;">📤 Inlämning</h2>
+
+<p style="margin:0;">Spara er dokumentation och lämna in den i <strong>PDF- eller Word-format</strong>.</p>
+</div>
+</div>
+</div>
